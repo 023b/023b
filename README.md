@@ -232,7 +232,7 @@ SQL          ██▓░░░░░░░░░░░░░░░░░░░�
 
 <div align="center">
   <h2>🐍 Contribution Snake</h2>
-  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/023b/023b/blob/main/.github/workflows/snake.yml" alt="Snake animation" />
 </div>
 
 <!-- Note: You'll need to set up the snake animation. Create a file named "snake.yml" in your repository and paste this code: -->
