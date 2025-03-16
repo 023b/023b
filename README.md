@@ -1,4 +1,4 @@
-<!-- GitHub README.md for 023b -->
+<!-- GitHub README.md for 023b with embedded workflow information -->
 
 <div align="center">
   <h1>Arun Prakash</h1>
@@ -222,7 +222,6 @@ app.listen(3000, () => {
   <h2>📊 Coding Activity</h2>
 </div>
 
-<!--START_SECTION:waka-->
 ```text
 Python       ███████████████▓░░░░░░░░░  65.42 % 
 HTML/CSS     ████████▒░░░░░░░░░░░░░░░░  30.25 % 
@@ -230,10 +229,10 @@ R            ████░░░░░░░░░░░░░░░░░░�
 JavaScript   ███▒░░░░░░░░░░░░░░░░░░░░░  10.75 % 
 SQL          ██▓░░░░░░░░░░░░░░░░░░░░░░   9.46 % 
 ```
-<!--END_SECTION:waka-->
 
 <div align="center">
-  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <h2>🐍 Contribution Snake</h2>
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 <div align="center">
@@ -245,33 +244,19 @@ SQL          ██▓░░░░░░░░░░░░░░░░░░░�
   <p>+91 9342439528</p>
 </div>
 
-<!-- GitHub Action for Snake Animation 
-To enable the snake animation, create a directory .github/workflows and add a YAML file with:
+<!-- 
+FOR SNAKE ANIMATION:
+The snake animation shown above is provided by a third-party service. 
+If you want your own personalized snake animation, you can:
 
-name: Generate Snake Animation
+1. Fork the repository: https://github.com/platane/snk
+2. Go to the Actions tab in your forked repository
+3. Enable GitHub Actions
+4. Run the workflow manually
+5. Then, update the snake animation URL in this README to point to your own repository's output
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+For example, replace the URL with:
+https://raw.githubusercontent.com/YOUR_USERNAME/snk/output/github-contribution-grid-snake.svg
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: 023b
-          svg_out_path: dist/github-contribution-grid-snake-dark.svg
-          snake_color: 'blue'
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+This will create a snake animation based on your own GitHub contribution graph.
 -->
