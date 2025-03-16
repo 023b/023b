@@ -1,10 +1,15 @@
-<!-- GitHub README.md for 023b with embedded workflow information -->
+<!-- GitHub README.md for 023b with snake animation at the top -->
 
 <div align="center">
   <h1>Arun Prakash</h1>
   <p><i>BCA in Artificial Intelligence & Data Science | Aspiring Developer</i></p>
   
   ![GitHub Profile Views](https://komarev.com/ghpvc/?username=023b&color=blueviolet&style=flat-square)
+  
+  <hr>
+  
+  <!-- Snake Animation -->
+  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   
   <hr>
 </div>
@@ -231,13 +236,18 @@ SQL          ██▓░░░░░░░░░░░░░░░░░░░�
 ```
 
 <div align="center">
-  <h2>🐍 Contribution Snake</h2>
-  <img src="https://github.com/023b/023b/blob/main/.github/workflows/snake.yml" alt="Snake animation" />
+  <h2>📫 Connect With Me</h2>
+  
+  <a href="mailto:arunsabapathi@outlook.com">Email</a> •
+  <a href="https://www.linkedin.com/in/arun-prakash-s-739881230/">LinkedIn</a>
+  
+  <p>+91 9342439528</p>
 </div>
 
-<!-- Note: You'll need to set up the snake animation. Create a file named "snake.yml" in your repository and paste this code: -->
+<!-- 
+FOR SNAKE ANIMATION:
+To make the snake animation work, create a file named ".github/workflows/snake.yml" with the following content:
 
-<!--
 name: Generate Snake Animation
 
 on:
@@ -264,31 +274,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
--->
-
-
-<div align="center">
-  <h2>📫 Connect With Me</h2>
-  
-  <a href="mailto:arunsabapathi@outlook.com">Email</a> •
-  <a href="https://www.linkedin.com/in/arun-prakash-s-739881230/">LinkedIn</a>
-  
-  <p>+91 9342439528</p>
-</div>
-
-<!-- 
-FOR SNAKE ANIMATION:
-The snake animation shown above is provided by a third-party service. 
-If you want your own personalized snake animation, you can:
-
-1. Fork the repository: https://github.com/platane/snk
-2. Go to the Actions tab in your forked repository
-3. Enable GitHub Actions
-4. Run the workflow manually
-5. Then, update the snake animation URL in this README to point to your own repository's output
-
-For example, replace the URL with:
-https://raw.githubusercontent.com/YOUR_USERNAME/snk/output/github-contribution-grid-snake.svg
-
-This will create a snake animation based on your own GitHub contribution graph.
 -->
