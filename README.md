@@ -1,160 +1,258 @@
-# Arun Prakash
+<!-- GitHub README.md for 023b -->
 
 <div align="center">
-  <img src="https://i.imgur.com/jQstgKI.png" alt="Quantum AI Banner" width="800">
+  <h1>Arun Prakash</h1>
+  <p><i>BCA in Artificial Intelligence & Data Science | Aspiring Developer</i></p>
+  
+  ![GitHub Profile Views](https://komarev.com/ghpvc/?username=023b&color=blueviolet&style=flat-square)
+  
+  <hr>
 </div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/arun-prakash-s-739881230/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
-  <a href="mailto:arunsabapathi@outlook.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail" alt="Email"></a>
-  <img src="https://img.shields.io/badge/AI & DS-Student-green?style=flat-square" alt="AI & DS Student">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&style=flat-square&color=brightgreen" alt="Profile Views">
-</p>
-
-## About Me
-
-I am an ambitious undergraduate student pursuing Bachelor's in Computer Application with a specialization in Artificial Intelligence and Data Science. My research interests primarily revolve around explorations in the field of AI, encompassing named entity recognition and natural language processing.
-
-```javascript
-const arun = {
-  education: "BCA with AI & DS specialization",
-  interests: ["Artificial Intelligence", "NLP", "Quantum Computing"],
-  currentlyLearning: "Advanced Neural Network Architectures",
-  lookingToCollaborate: "AI and Quantum Computing projects"
-};
-```
-
-## Education
-
-| Degree | Institution | Timeline |
-|--------|-------------|----------|
-| Bachelor of Computer Application (AI & DS) | Dr MGR Educational and Research Institute | Sep 2022 - Jul 2025 |
-
-## Skills
-
 ```python
-class Skills:
+class Developer:
     def __init__(self):
-        self.programming = ["Python", "HTML", "R", "SQL"]
-        self.ai_ml = ["Large Language Models", "A3C", "Q-Learning"]
-        self.data_science = ["Data Mining", "Data Analysis", "Microsoft Excel"]
+        self.name = "Arun Prakash"
+        self.education = "BCA in AI & Data Science"
+        self.institution = "Dr MGR Educational and Research Institute"
+        self.timeline = "Sep 2022 - Jul 2025"
+        self.interests = ["AI", "NLP", "Named Entity Recognition"]
         
-    def constantly_improving(self):
-        return True
+    def get_skills(self):
+        return {
+            "languages": ["Python", "HTML", "SQL", "R"],
+            "ai_tools": ["Large Language Models", "A3C", "Q-Learning"],
+            "data": ["Data Mining", "Data Science", "Microsoft Excel"]
+        }
+        
+    def get_projects(self):
+        return [
+            {
+                "name": "Comment_classifier",
+                "tech": ["Python", "Google API Client", "VaderSentiment"],
+                "desc": "Categorizes YouTube comments with sentiment analysis"
+            },
+            {
+                "name": "Multi-Layered Web Page",
+                "tech": ["HTML", "CSS", "JavaScript", "Node.js"],
+                "desc": "Dynamic interactive web interface with error handling"
+            }
+        ]
+
+arun = Developer()
 ```
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### AI & Data Science Skills
-- Large Language Models
-- A3C Reinforcement Learning
-- Q-Learning
-- R Studio
-- Data Mining
-- Data Science
-- Microsoft Excel
-
-## Projects
+<div align="center">
+  <h2>⚡ Technologies & Skills</h2>
+</div>
 
 <table>
   <tr>
-    <td width="50%">
-      <h3 align="center">Comment Classifier</h3>
-      <div align="center">
-        <a href="#" target="_blank">
-          <img src="https://www.researchgate.net/publication/349569902/figure/fig2/AS:995462872711168@1614399754057/YouTube-comments-sentiment-analysis-methodology.jpg" width="100%" alt="Comment Classifier"/>
-        </a>
-        <p>
-          <strong>Python | VaderSentiment | Google API</strong> - A Python program using Google API Client and VaderSentiment to categorize YouTube comments, providing overall sentiment percentages (Positive, Negative, Neutral).
-        </p>
-      </div>
+    <td align="center" width="96">
+      <div style="height: 24px">Python</div>
     </td>
-    <td width="50%">
-      <h3 align="center">Multi-Layered Web Page</h3>
-      <div align="center">
-        <a href="#" target="_blank">
-          <img src="https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-1.png" width="100%" alt="Web Project"/>
-        </a>
-        <p>
-          <strong>HTML | CSS | JavaScript | Node.js</strong> - A dynamic Web-page that utilizes HTML, CSS, and JavaScript to create an interactive user Interface. The project is integrated with Node.js for error handling.
-        </p>
-      </div>
+    <td align="center" width="96">
+      <div style="height: 24px">HTML</div>
+    </td>
+    <td align="center" width="96">
+      <div style="height: 24px">SQL</div>
+    </td>
+    <td align="center" width="96">
+      <div style="height: 24px">R Studio</div>
+    </td>
+    <td align="center" width="96">
+      <div style="height: 24px">Node.js</div>
     </td>
   </tr>
 </table>
 
-## Certificates
+<div align="center">
+  <h2>📚 Projects</h2>
+</div>
 
-| Provider | Certificate |
-|----------|-------------|
-| Great Learning | Data Mining |
-| Great Learning | AI with Python |
-| Great Learning | Data Science with Python |
-| IBM | Introduction to Python |
-| Udemy | Artificial Intelligence A-Z (2023) |
+<details>
+<summary><b>📊 Comment Classifier</b></summary>
+<br>
+<p>Python program that uses Google API Client and VaderSentiment to analyze and categorize YouTube comments by sentiment, providing overall percentages of positive, negative, and neutral comments.</p>
 
-## Experience
+```python
+# Example sentiment analysis with VaderSentiment
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from googleapiclient.discovery import build
 
-**AI Internship** at Pantech Solutions
-- Applied machine learning techniques to real-world problems
-- Worked with cutting-edge AI technologies and frameworks
-
-## Quantum Computing Interest
-
+def analyze_comments(video_id, api_key):
+    # Setup YouTube API
+    youtube = build('youtube', 'v3', developerKey=api_key)
+    
+    # Get comments
+    comments = youtube.commentThreads().list(
+        part="snippet",
+        videoId=video_id,
+        maxResults=100
+    ).execute()
+    
+    # Analyze sentiment
+    analyzer = SentimentIntensityAnalyzer()
+    results = {'positive': 0, 'negative': 0, 'neutral': 0}
+    
+    for item in comments['items']:
+        comment = item['snippet']['topLevelComment']['snippet']['textDisplay']
+        score = analyzer.polarity_scores(comment)
+        
+        if score['compound'] >= 0.05:
+            results['positive'] += 1
+        elif score['compound'] <= -0.05:
+            results['negative'] += 1
+        else:
+            results['neutral'] += 1
+    
+    return results
 ```
-     ┌──────────┐┌──────────┐┌────────────┐┌────────────┐
-q_0: ┤ Hadamard ├┤ Rx(π/64) ├┤ Phase(π/2) ├┤ Measure[0] ├
-     ├──────────┤├──────────┤└──────┬─────┘└────────────┘
-q_1: ┤ Hadamard ├┤ Rx(π/32) ├───────┼───────────────────
-     └──────────┘└──────────┘       │                    
-c_0: ════════════════════════════════════════════════════
-                                     ▲                    
-                                     │                    
-                                 Classical               
-                                  Control                
+</details>
+
+<details>
+<summary><b>🌐 Multi-Layered Web Page</b></summary>
+<br>
+<p>A dynamic web application that leverages HTML, CSS, and JavaScript to create an interactive user interface, with Node.js integration for robust error handling and backend functionality.</p>
+
+```javascript
+// Example error handling in Node.js
+const express = require('express');
+const app = express();
+
+app.use(express.static('public'));
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send({
+    status: 500,
+    message: 'Internal Server Error',
+    error: process.env.NODE_ENV === 'production' ? null : err.message
+  });
+});
+
+app.listen(3000, () => {
+  console.log('Server running on port 3000');
+});
+```
+</details>
+
+<div align="center">
+  <h2>📈 GitHub Stats</h2>
+</div>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=023b&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=023b&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" width="400"/>
+</p>
+
+<div align="center">
+  <a href="https://github.com/023b">
+    <img src="https://github-profile-trophy.vercel.app/?username=023b&theme=tokyonight&no-frame=true&column=7" alt="trophy">
+  </a>
+</div>
+
+<div align="center">
+  <h2>🧠 AI Expertise</h2>
+</div>
+
+```text
+┌─────────────────────────────────────────────────┐
+│                                                 │
+│  LLM Implementation  ███████████░░░░░  70%      │
+│  Reinforcement (A3C) ████████████░░░░  75%      │
+│  Q-Learning          ██████████████░░  85%      │
+│  Data Mining         ███████████████░  90%      │
+│  NLP Processing      █████████░░░░░░░  55%      │
+│                                                 │
+└─────────────────────────────────────────────────┘
 ```
 
-## GitHub Stats
+<div align="center">
+  <h2>🎓 Education & Certifications</h2>
+</div>
+
+<details>
+<summary><b>🎓 Academic Education</b></summary>
+<br>
+
+```css
+/* Education */
+.degree {
+  institution: "Dr MGR Educational and Research Institute";
+  program: "BCA (AI & DS)";
+  duration: "Sep 2022 - Jul 2025";
+  focus: "Artificial Intelligence, Data Science, Programming";
+}
+```
+</details>
+
+<details>
+<summary><b>🏆 Professional Certifications</b></summary>
+<br>
+
+#### Great Learning
+- Data Mining
+- AI with Python
+- Data Science with Python
+
+#### IBM
+- Introduction to Python
+
+#### Udemy
+- Artificial Intelligence A-Z (2023)
+</details>
+
+<details>
+<summary><b>💼 Professional Experience</b></summary>
+<br>
+
+#### Pantech Solutions
+- **Role**: AI Intern
+- **Duration**: 2023
+- **Responsibilities**: Worked on AI implementation projects utilizing Python and machine learning frameworks
+</details>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170">
+  <h2>📊 Coding Activity</h2>
+</div>
+
+<!--START_SECTION:waka-->
+```text
+Python       ███████████████▓░░░░░░░░░  65.42 % 
+HTML/CSS     ████████▒░░░░░░░░░░░░░░░░  30.25 % 
+R            ████░░░░░░░░░░░░░░░░░░░░░  15.12 % 
+JavaScript   ███▒░░░░░░░░░░░░░░░░░░░░░  10.75 % 
+SQL          ██▓░░░░░░░░░░░░░░░░░░░░░░   9.46 % 
+```
+<!--END_SECTION:waka-->
+
+<div align="center">
+  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="700">
+  <h2>📫 Connect With Me</h2>
+  
+  <a href="mailto:arunsabapathi@outlook.com">Email</a> •
+  <a href="https://www.linkedin.com/in/arun-prakash-s-739881230/">LinkedIn</a>
+  
+  <p>+91 9342439528</p>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg" alt="Snake animation">
-</div>
+<!-- GitHub Action for Snake Animation 
+To enable the snake animation, create a directory .github/workflows and add a YAML file with:
 
-## Let's Connect!
-
-If you're interested in AI, quantum computing, or just want to collaborate on interesting projects, feel free to reach out!
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/arun-prakash-s-739881230/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:arunsabapathi@outlook.com">
-    <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email">
-  </a>
-</div>
-
-<!-- Don't forget to create the GitHub Action workflow for the snake animation! -->
-<!-- Create .github/workflows/snake.yml with the content below -->
-
-<!--
 name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs at 12 am UTC everyday
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -165,9 +263,12 @@ jobs:
       - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: yourusername
-          svg_out_path: dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v2.5.0
+          github_user_name: 023b
+          svg_out_path: dist/github-contribution-grid-snake-dark.svg
+          snake_color: 'blue'
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           target_branch: output
           build_dir: dist
