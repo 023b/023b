@@ -9,7 +9,7 @@
   <hr>
   
   <!-- Snake Animation -->
- <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   
   <hr>
 </div>
@@ -76,70 +76,83 @@ arun = Developer()
 </div>
 
 <details>
-<summary><b>📊 Comment Classifier</b></summary>
+<summary><b>🔮 Quantum Computing Training Program</b></summary>
 <br>
-<p>Python program that uses Google API Client and VaderSentiment to analyze and categorize YouTube comments by sentiment, providing overall percentages of positive, negative, and neutral comments.</p>
+<p>A comprehensive 9-week quantum computing training program covering topics from basic quantum circuits to quantum machine learning and quantum NLP, with hands-on exercises using Qiskit.</p>
 
 ```python
-# Example sentiment analysis with VaderSentiment
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from googleapiclient.discovery import build
+# Quantum Random Number Generator
+from qiskit import QuantumCircuit
+from qiskit.primitives import Sampler
 
-def analyze_comments(video_id, api_key):
-    # Setup YouTube API
-    youtube = build('youtube', 'v3', developerKey=api_key)
+def get_random(max_num):
+    """
+    Generates a quantum random number between 0 and max_num - 1.
+    """
+    qrng = QuantumCircuit(8, 8)  # 8 qubits, 8 classical bits
     
-    # Get comments
-    comments = youtube.commentThreads().list(
-        part="snippet",
-        videoId=video_id,
-        maxResults=100
-    ).execute()
+    for i in range(8):
+        qrng.h(i)  # Put each qubit in superposition
     
-    # Analyze sentiment
-    analyzer = SentimentIntensityAnalyzer()
-    results = {'positive': 0, 'negative': 0, 'neutral': 0}
+    qrng.measure(range(8), range(8))  # Measure all qubits
     
-    for item in comments['items']:
-        comment = item['snippet']['topLevelComment']['snippet']['textDisplay']
-        score = analyzer.polarity_scores(comment)
-        
-        if score['compound'] >= 0.05:
-            results['positive'] += 1
-        elif score['compound'] <= -0.05:
-            results['negative'] += 1
-        else:
-            results['neutral'] += 1
+    sampler = Sampler()
+    job = sampler.run(qrng, shots=1)
+    result = job.result()
+    bitstring = list(result.quasi_dists[0].keys())[0]  # Get a random bitstring
     
-    return results
+    return int(format(bitstring, '08b'), 2) % max_num  # Convert to integer
+
+# Generate 5 random numbers between 0 and 99
+for _ in range(5):
+    print(get_random(100))
 ```
 </details>
 
 <details>
-<summary><b>🌐 Multi-Layered Web Page</b></summary>
+<summary><b>🧠 GPT-Enhanced Language Model Fine-Tuning</b></summary>
 <br>
-<p>A dynamic web application that leverages HTML, CSS, and JavaScript to create an interactive user interface, with Node.js integration for robust error handling and backend functionality.</p>
+<p>A project demonstrating a novel approach to fine-tuning language models by incorporating quantum computing techniques in the training process. Specifically, it uses quantum circuits to enhance parameter updates during the training of a sentiment analysis model.</p>
 
-```javascript
-// Example error handling in Node.js
-const express = require('express');
-const app = express();
-
-app.use(express.static('public'));
-
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send({
-    status: 500,
-    message: 'Internal Server Error',
-    error: process.env.NODE_ENV === 'production' ? null : err.message
-  });
-});
-
-app.listen(3000, () => {
-  console.log('Server running on port 3000');
-});
+```python
+# Quantum-enhanced parameter update (conceptual code)
+def quantum_parameter_update(gradients, learning_rate, num_qubits=5, shots=1000):
+    """
+    Process gradients through a quantum circuit to create 
+    enhanced parameter updates for neural network training.
+    
+    Args:
+        gradients: Calculated gradients from backpropagation
+        learning_rate: Learning rate for parameter updates
+        num_qubits: Number of qubits to use in the quantum circuit
+        shots: Number of measurement shots
+        
+    Returns:
+        Updated gradient directions for parameter updates
+    """
+    # Create quantum circuit for gradient encoding
+    qc = QuantumCircuit(num_qubits, num_qubits)
+    
+    # Encode gradients into rotation angles
+    for i in range(num_qubits):
+        qc.h(i)  # Create superposition
+        # Map gradient values to rotation angles
+        qc.ry(gradients[i % len(gradients)] * learning_rate, i)
+    
+    # Create entanglement
+    for i in range(num_qubits-1):
+        qc.cx(i, i+1)
+    
+    # Measure qubits
+    qc.measure(range(num_qubits), range(num_qubits))
+    
+    # Execute circuit to get measurement distribution
+    result = execute_circuit(qc, shots=shots)
+    
+    # Process measurement results to determine parameter updates
+    # [Implementation details omitted for brevity]
+    
+    return quantum_enhanced_updates
 ```
 </details>
 
