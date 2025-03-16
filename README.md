@@ -1,3 +1,5 @@
+![Quantum AI Banner](./quantum-ai-banner.svg)
+
 # Arun Prakash
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arun-prakash-s-739881230/)
@@ -116,7 +118,7 @@ c_0: ═════════════════════════
 
 ## Contribution Graph
 
-![Snake animation](https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake Animation](https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg)
 
 ## Let's Connect!
 
