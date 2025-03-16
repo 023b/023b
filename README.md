@@ -9,7 +9,7 @@
   <hr>
   
   <!-- Snake Animation -->
-  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake.yml" alt="Snake animation" />
   
   <hr>
 </div>
