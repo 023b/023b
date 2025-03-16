@@ -9,11 +9,6 @@
   <hr>
 </div>
 
-<div align="center">
-  <h2>🐍 Contribution Snake</h2>
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
 ```python
 class Developer:
     def __init__(self):
@@ -235,6 +230,41 @@ JavaScript   ███▒░░░░░░░░░░░░░░░░░░�
 SQL          ██▓░░░░░░░░░░░░░░░░░░░░░░   9.46 % 
 ```
 
+<div align="center">
+  <h2>🐍 Contribution Snake</h2>
+  <img src="https://github.com/023b/023b/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+<!-- Note: You'll need to set up the snake animation. Create a file named "snake.yml" in your repository and paste this code: -->
+
+<!--
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs at midnight daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Generate Snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: 023b
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+-->
 
 
 <div align="center">
