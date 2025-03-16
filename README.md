@@ -9,6 +9,11 @@
   <hr>
 </div>
 
+<div align="center">
+  <h2>🐍 Contribution Snake</h2>
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
 ```python
 class Developer:
     def __init__(self):
@@ -230,10 +235,7 @@ JavaScript   ███▒░░░░░░░░░░░░░░░░░░�
 SQL          ██▓░░░░░░░░░░░░░░░░░░░░░░   9.46 % 
 ```
 
-<div align="center">
-  <h2>🐍 Contribution Snake</h2>
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
+
 
 <div align="center">
   <h2>📫 Connect With Me</h2>
