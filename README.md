@@ -1,229 +1,221 @@
-<!-- Animated header with typing effect -->
+<!-- Dark Knight-inspired profile README with better animations -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SomnathDas/SomnathDas/master/Batman.gif" width="300" height="300" alt="Batman">
+</div>
+
+<!-- Dynamic typing effect with a Batman theme -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;I'm+Arun+Prakash....;AI+and+Data+Science+Enthusiast!;Welcome+to+my+GitHub+Profile!&center=true&size=30&color=58a6ff&duration=3500">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=435&lines=I'm+Arun+Prakash;AI+%26+Quantum+Computing+Scholar;Not+the+hero+you+deserve...;But+the+one+you+need+right+now" alt="Typing SVG">
   </a>
 </h1>
 
-<!-- Profile banner with dynamic wave animation -->
-<img width="100%" height="250" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/welcome.png" alt="Welcome">
+<div align="center">
+  <img src="https://i.imgur.com/IqGzGTC.gif" width="500">
+</div>
 
-<!-- Introduction section with visual elements -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="100" height="100">
-</p>
-
-<h3 align="center">Artificial Intelligence & Data Science Student</h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/arun-prakash-s-739881230/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:arunsabapathi@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
 </p>
 
-<!-- About me section -->
-<h2>🧠 About Me</h2>
+<!-- Gotham City skyline separator -->
+<img src="https://i.imgur.com/waxVImv.png" alt="Separator">
+
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> About Me
 
 ```javascript
-const arun = {
+const arunPrakash = {
   education: "Bachelor's in Computer Application (AI & DS)",
   institution: "Dr MGR Educational and Research Institute",
   timeline: "Sep 2022 - Jul 2025",
-  interests: ["AI", "NLP", "Named Entity Recognition", "Data Science"],
-  currentlyLearning: ["Deep Learning", "Transformer Models", "Cloud Computing"],
-  challenge: "Contributing to open-source AI projects"
+  interests: ["Quantum Computing", "LLMs", "NLP", "Reinforcement Learning"],
+  skills: ["A3C", "Q-Learning", "Data Mining", "Python", "R", "SQL"],
+  philosophy: "It's not who I am underneath, but what I code that defines me.",
 };
 ```
 
-I'm an ambitious undergraduate student passionate about pushing the boundaries of what's possible with AI and data science. My research interests revolve around natural language processing and named entity recognition.
+I'm an ambitious undergraduate student specializing in AI & Data Science with a focus on quantum computing applications. My research revolves around natural language processing, named entity recognition, and quantum algorithms.
 
-<!-- Animated wave -->
-<img src="https://raw.githubusercontent.com/trinib/trinib/a5f17399d881c5651a89bfe4a621893f5e54c18f/images/wave.svg" width="100%">
+<!-- Batman-inspired stats card -->
+<div align="center">
+  <img width="400" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&hide_border=true&title_color=FFE81F&icon_color=FFE81F&text_color=FFFFFF&bg_color=0D1117&include_all_commits=true&count_private=true" alt="My GitHub Stats">
+</div>
 
-<!-- Skills section with animated icons -->
-<h2>🚀 Skills & Technologies</h2>
+<!-- 3D contribution animation (better than snake) -->
+<div align="center">
+  <a href="https://github.com/yourusername">
+    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid" width="100%">
+  </a>
+</div>
 
-<!-- Programming Languages -->
-<h3>💻 Programming Languages</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+<!-- Wayne Enterprises (Projects) Section -->
+<h2 align="center">🦇 Wayne Enterprises R&D Department 🦇</h2>
 
-<!-- AI & DS Tools -->
-<h3>🤖 AI & Data Science</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-  <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white" />
-</p>
-
-<!-- Animated Progress Bars for specific skills -->
-<h3>🔍 Specialized Skills</h3>
-
-| Skill | Proficiency |
-| --- | --- |
-| Large Language Models | ![LLM](https://progress-bar.dev/85/?title=LLM) |
-| A3C | ![A3C](https://progress-bar.dev/75/?title=A3C) |
-| Q-Learning | ![Q-Learning](https://progress-bar.dev/80/?title=Q-Learning) |
-| Data Mining | ![Data Mining](https://progress-bar.dev/90/?title=Data-Mining) |
-| NLP | ![NLP](https://progress-bar.dev/85/?title=NLP) |
-
-<!-- Projects with animated cards -->
-<h2>🏆 Featured Projects</h2>
+<p align="center">The most advanced technology projects, just like Bruce Wayne would fund</p>
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">Comment Classifier</h3>
+      <h3 align="center">Quantum Computing Platform</h3>
       <div align="center">
-        <a href="https://github.com/your-username/comment-classifier" target="_blank">
-          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/github.gif" width="100" alt="Project 1">
+        <a href="https://github.com/yourusername/quantum-computing" target="_blank">
+          <img src="https://raw.githubusercontent.com/SomnathDas/SomnathDas/master/quantum.gif" width="200" alt="Quantum Computing">
         </a>
         <p>
-          <a href="https://github.com/your-username/comment-classifier" target="_blank">
-            <img src="https://img.shields.io/badge/Code-gray?style=for-the-badge&logo=github">
-          </a>
-        </p>
-        <p>
-          Python program using Google API Client and VaderSentiment to categorize YouTube comments, providing overall sentiment percentages (Positive, Negative, Neutral)
+          9-week quantum computing training program covering topics from basic quantum circuits to quantum machine learning and quantum NLP.
         </p>
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">Multi-Layered Web Page</h3>
+      <h3 align="center">Quantum-Enhanced LLM</h3>
       <div align="center">
-        <a href="https://github.com/your-username/multi-layered-web" target="_blank">
-          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/html.gif" width="100" alt="Project 2">
+        <a href="https://github.com/yourusername/quantum-llm" target="_blank">
+          <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*zJj9hO_WMQQRw16WFtBd1g.gif" width="200" alt="Quantum LLM">
         </a>
         <p>
-          <a href="https://github.com/your-username/multi-layered-web" target="_blank">
-            <img src="https://img.shields.io/badge/Code-gray?style=for-the-badge&logo=github">
-          </a>
+          Novel approach to fine-tuning language models by incorporating quantum computing techniques to enhance parameter updates during training.
         </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Hand Tracking System</h3>
+      <div align="center">
+        <a href="https://github.com/yourusername/hand-tracking" target="_blank">
+          <img src="https://user-images.githubusercontent.com/72495653/134774460-39019fcb-0992-47bd-b8b9-c58fb5fc4fc3.gif" width="200" alt="Hand Tracking">
+        </a>
         <p>
-          A dynamic Web-page that utilizes HTML, CSS, and JavaScript to create an interactive user Interface. The project is integrated with Node.js for error handling.
+          Real-time hand tracking application using OpenCV and MediaPipe to detect and recognize various hand gestures.
+        </p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">YouTube Comment Classifier</h3>
+      <div align="center">
+        <a href="https://github.com/yourusername/comment-classifier" target="_blank">
+          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/github.gif" width="200" alt="Comment Classifier">
+        </a>
+        <p>
+          Python program using Google API Client and VaderSentiment to categorize YouTube comments with sentiment analysis.
         </p>
       </div>
     </td>
   </tr>
 </table>
 
-<!-- Github stats with animations -->
-<h2>📊 GitHub Stats</h2>
+<!-- Dark Knight Arsenal (Skills & Tools) section -->
+<h2 align="center">🦇 The Dark Knight's Arsenal 🦇</h2>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=your-username&theme=algolia&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&bg_color=0d1117&text_color=58a6ff&icon_color=58a6ff&title_color=58a6ff&hide_border=true" height="165">
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&bg_color=0d1117&text_color=58a6ff&icon_color=58a6ff&title_color=58a6ff&hide_border=true&langs_count=8" height="165">
-  </a>
-</p>
-
-<!-- Dynamic contribution visualization that's better than snake animation -->
-<h2>🐙 Contribution Graph</h2>
-
-<img src="https://activity-graph.herokuapp.com/graph?username=your-username&theme=react-dark&hide_border=true&area=true" width="100%">
-
-<!-- Streak stats -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=dark&hide_border=true&background=0D1117&stroke=0000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak Stats" width="100%">
-</p>
-
-<!-- 3D Contribution Calendar -->
-<h2>📆 3D Contribution Calendar</h2>
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
-
-<!-- Dynamic Quote -->
-<h2>💭 Quote of the Day</h2>
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%">
-</p>
-
-<!-- Visitor counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=your-username&color=blue&style=flat-square&label=Profile+Views" alt="Profile views">
-</p>
-
-<!-- Certifications -->
-<h2>🎓 Certifications</h2>
-
-<details>
-  <summary>Click to view certifications</summary>
-  <br>
-  <ul>
-    <li>Data Mining - Great Learning</li>
-    <li>AI with Python - Great Learning</li>
-    <li>Data Science with Python - Great Learning</li>
-    <li>Introduction to Python - IBM</li>
-    <li>Artificial Intelligence A-Z - Udemy</li>
-  </ul>
-</details>
-
-<!-- Education -->
-<h2>📚 Education</h2>
-
-```
-Bachelor of Computer Application (AI & DS)
-Dr MGR Educational and Research Institute
-Sep 2022 - Jul 2025
-```
-
-<!-- Internship -->
-<h2>💼 Professional Experience</h2>
-
-```
-AI Internship
-Pantech Solutions
-2023
-```
-
-<!-- Footer Wave -->
-<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%">
-
-<!-- Fun element -->
 <div align="center">
-  <h3>Connect with me and watch my contribution graph get eaten by a snake 🐍</h3>
-  <img src="https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg" alt="Snake eating your contribution graph">
+  <img src="https://skillicons.dev/icons?i=python,r,html,css,js,tensorflow,pytorch,git" alt="Skills">
 </div>
 
-<!-- 
-NOTE: To get this snake animation working, you need to:
-1. Create a new GitHub repository with the same name as your GitHub username
-2. Create a new GitHub Action workflow file at .github/workflows/snake.yml
-3. Add the following content to the workflow file:
+<!-- Skill bar visualization with batman theme -->
+<table>
+  <tr>
+    <td>
+      <h3>Quantum Computing</h3>
+      <div style="background-color: #333; border-radius: 10px; height: 20px; width: 100%;">
+        <div style="background-color: #FFE81F; border-radius: 10px; height: 20px; width: 85%;">
+          <img src="https://progress-bar.dev/85/?width=400&color=FFE81F" width="400">
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Deep Learning / NLP</h3>
+      <div>
+        <img src="https://progress-bar.dev/90/?width=400&color=FFE81F" width="400">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Reinforcement Learning (A3C, Q-Learning)</h3>
+      <div>
+        <img src="https://progress-bar.dev/80/?width=400&color=FFE81F" width="400">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Python / Data Science</h3>
+      <div>
+        <img src="https://progress-bar.dev/95/?width=400&color=FFE81F" width="400">
+      </div>
+    </td>
+  </tr>
+</table>
 
-name: Generate Snake
+<!-- Batcave (Certifications) section -->
+<h2 align="center">🦇 The Batcave Archives 🦇</h2>
 
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/color/48/000000/certificate.png" width="30"/>
+      <h3>Artificial Intelligence A-Z (Udemy)</h3>
+    </td>
+    <td align="center">
+      <img src="https://img.icons8.com/color/48/000000/certificate.png" width="30"/>
+      <h3>Data Science with Python (Great Learning)</h3>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/color/48/000000/certificate.png" width="30"/>
+      <h3>Data Mining (Great Learning)</h3>
+    </td>
+    <td align="center">
+      <img src="https://img.icons8.com/color/48/000000/certificate.png" width="30"/>
+      <h3>AI with Python (Great Learning)</h3>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://img.icons8.com/color/48/000000/certificate.png" width="30"/>
+      <h3>Introduction to Python (IBM)</h3>
+    </td>
+  </tr>
+</table>
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
--->
+<!-- Activity Graph - Better than snake -->
+<h2 align="center">🦇 The Gotham City Skyline (Contribution Graph) 🦇</h2>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&bg_color=0D1117&color=FFE81F&line=FFFFFF&point=FFE81F&hide_border=true" width="100%">
+
+<!-- Streak Stats -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=chartreuse-dark&hide_border=true&currStreakLabel=FFE81F&background=0D1117&stroke=FFE81F&fire=FFE81F&ring=FFE81F" alt="GitHub Streak Stats" width="70%">
+</p>
+
+<!-- Spotify integration with Batman theme -->
+<h2 align="center">🦇 Currently Playing in the Batmobile 🦇</h2>
+
+<div align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31cuxrrzbbfbj5oig7crtzzhrxzm&cover_image=true&theme=default&show_offline=false&background_color=0D1117&interchange=false&bar_color=FFE81F&bar_color_cover=false" width="300">
+</div>
+
+<!-- 3D Animation - Much better than snake -->
+<h2 align="center">🦇 Gotham's Guardian (3D Contribution Calendar) 🦇</h2>
+
+<div align="center">
+  <img src="https://github.com/yoshi389111/github-profile-3d-contrib/raw/main/docs/demo/profile-night-rainbow.gif" width="80%">
+</div>
+
+<!-- Visitor Badge -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=yourusername&color=FFE81F&style=flat-square&label=Gotham+Citizens+Watching" alt="Profile Views">
+</div>
+
+<!-- Batman quote to end -->
+<p align="center">
+  <i>"It's not who I am underneath, but what I code that defines me."</i>
+</p>
+
+<div align="center">
+  <img src="https://64.media.tumblr.com/0eb18b88f5da610bcab8ce2cf68b093f/tumblr_p18ppv14nj1ww1two_500.gif" width="300">
+</div>
