@@ -3,33 +3,21 @@
 
 ```python
 class Developer:
+    class Developer:
     def __init__(self):
         self.name = "Arun Prakash"
         self.education = "BCA in AI & Data Science"
         self.institution = "Dr MGR Educational and Research Institute"
         self.timeline = "Sep 2022 - Jul 2025"
-        self.interests = ["AI", "NLP", "Named Entity Recognition"]
+        self.interests = ["Quantum Computing", "AI", "Machine Learning", "NLP"]
         
     def get_skills(self):
         return {
-            "languages": ["Python", "HTML", "SQL", "R"],
-            "ai_tools": ["Large Language Models", "A3C", "Q-Learning"],
-            "data": ["Data Mining", "Data Science", "Microsoft Excel"]
+            "languages": ["Python", "HTML", "R Studio", "SQL"],
+            "ai_tools": ["Quantum Machine Learning", "Large Language Models", "A3C", "Q-Learning"],
+            "data": ["Quantum Computing", "Data Mining", "Data Science", "Machine Learning"]
         }
         
-    def get_projects(self):
-        return [
-            {
-                "name": "Comment_classifier",
-                "tech": ["Python", "Google API Client", "VaderSentiment"],
-                "desc": "Categorizes YouTube comments with sentiment analysis"
-            },
-            {
-                "name": "Multi-Layered Web Page",
-                "tech": ["HTML", "CSS", "JavaScript", "Node.js"],
-                "desc": "Dynamic interactive web interface with error handling"
-            }
-        ]
 
 arun = Developer()
 ```
