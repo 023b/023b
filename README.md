@@ -185,11 +185,6 @@ def quantum_parameter_update(gradients, learning_rate, num_qubits=5, shots=1000)
 ```
 
 <div align="center">
-  <h2>💻 Most Used Languages</h2>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
-</div>
-
-<div align="center">
   <h2>🎓 Education & Certifications</h2>
 </div>
 
