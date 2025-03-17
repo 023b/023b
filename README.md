@@ -7,7 +7,8 @@
   <hr>
   
   <!-- Snake Animation -->
-  <img src="https://raw.githubusercontent.com/023b/023b/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<!-- Snake Animation -->
+<img src="https://raw.githubusercontent.com/023b/023b/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   
   <hr>
 </div>
