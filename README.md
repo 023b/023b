@@ -5,12 +5,6 @@
   ![GitHub Profile Views](https://komarev.com/ghpvc/?username=023b&color=blueviolet&style=flat-square)
   
   <hr>
-  
-  <!-- Snake Animation -->
-<!-- Snake Animation -->
-![Snake animation](https://github.com/023b/023b/blob/output/github-contribution-grid-snake.svg)
-  
-  <hr>
 </div>
 
 ```python
@@ -192,14 +186,8 @@ def quantum_parameter_update(gradients, learning_rate, num_qubits=5, shots=1000)
 
 <div align="center">
   <h2>💻 Most Used Languages</h2>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
 </div>
-
-```text
-Python       ████████████████████░░░░  80.25 % 
-HTML         ████████████░░░░░░░░░░░░  43.97 % 
-CSS          ███████████░░░░░░░░░░░░░  47.51 % 
-JavaScript   ███░░░░░░░░░░░░░░░░░░░░░   4.58 % 
-```
 
 <div align="center">
   <h2>🎓 Education & Certifications</h2>
