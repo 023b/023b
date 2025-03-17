@@ -1,5 +1,3 @@
-<!-- GitHub README.md for 023b with snake animation at the top -->
-
 <div align="center">
   <h1>Arun Prakash</h1>
   <p><i>BCA in Artificial Intelligence & Data Science | Aspiring Developer</i></p>
@@ -9,7 +7,7 @@
   <hr>
   
   <!-- Snake Animation -->
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/023b/023b/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   
   <hr>
 </div>
@@ -192,6 +190,17 @@ def quantum_parameter_update(gradients, learning_rate, num_qubits=5, shots=1000)
 ```
 
 <div align="center">
+  <h2>💻 Most Used Languages</h2>
+</div>
+
+```text
+Python       ████████████████████░░░░  80.25 % 
+HTML         ████████████░░░░░░░░░░░░  43.97 % 
+CSS          ███████████░░░░░░░░░░░░░  47.51 % 
+JavaScript   ███░░░░░░░░░░░░░░░░░░░░░   4.58 % 
+```
+
+<div align="center">
   <h2>🎓 Education & Certifications</h2>
 </div>
 
@@ -237,18 +246,6 @@ def quantum_parameter_update(gradients, learning_rate, num_qubits=5, shots=1000)
 </details>
 
 <div align="center">
-  <h2>📊 Coding Activity</h2>
-</div>
-
-```text
-Python       ███████████████▓░░░░░░░░░  65.42 % 
-HTML/CSS     ████████▒░░░░░░░░░░░░░░░░  30.25 % 
-R            ████░░░░░░░░░░░░░░░░░░░░░  15.12 % 
-JavaScript   ███▒░░░░░░░░░░░░░░░░░░░░░  10.75 % 
-SQL          ██▓░░░░░░░░░░░░░░░░░░░░░░   9.46 % 
-```
-
-<div align="center">
   <h2>📫 Connect With Me</h2>
   
   <a href="mailto:arunsabapathi@outlook.com">Email</a> •
@@ -256,35 +253,3 @@ SQL          ██▓░░░░░░░░░░░░░░░░░░░�
   
   <p>+91 9342439528</p>
 </div>
-
-<!-- 
-FOR SNAKE ANIMATION:
-To make the snake animation work, create a file named ".github/workflows/snake.yml" with the following content:
-
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs at midnight daily
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      
-      - name: Generate Snake
-        uses: Platane/snk@master
-        with:
-          github_user_name: 023b
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
--->
