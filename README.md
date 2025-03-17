@@ -8,7 +8,7 @@
   
   <!-- Snake Animation -->
 <!-- Snake Animation -->
-<img src="https://raw.githubusercontent.com/023b/023b/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+![Snake animation](https://github.com/023b/023b/blob/output/github-contribution-grid-snake.svg)
   
   <hr>
 </div>
