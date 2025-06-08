@@ -54,12 +54,19 @@ arun = Developer()
 
 ## 💼 Professional Experience
 
+**Adroit Technologies (IBM Cognitive AI Intern)**
+- **Role**: AI Solutions Trainee | Nov 2024
+- **Key Work**:
+  - Trained in IBM Watson's AI stack (NLP, cognitive computing)
+  - Researched & blogged about ML integration in enterprise solutions
+  - Gained hands-on experience with IBM Cloud AI deployment tools
+    
 **Pantech Solutions**
 - **Role**: AI Intern
 - **Duration**: 2023
 - **Responsibilities**: Worked on AI implementation projects utilizing Python and machine learning frameworks
 
 ## 📫 Connect With Me
-[Email](mailto:arunsabapathi@outlook.com) • [LinkedIn](https://www.linkedin.com/in/arun-prakash-s-739881230/)
+[Email](mailto:arunsabapathi2486@gmail.com) • [LinkedIn](https://www.linkedin.com/in/arun-prakash-s-739881230/)
 
 +91 9342439528
