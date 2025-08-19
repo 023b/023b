@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&center=true&vCenter=true&width=435&lines=AI+Developer+%26+Researcher;Home+Lab+Networking+Enthusiast)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&center=true&vCenter=true&width=435&lines=AI+Developer+%26+Researcher;Home+Lab+Networking+Enthusiast;Building+the+Future+with+AI;Privacy-First+AI+Solutions)
 
 </div>
 
@@ -126,14 +126,41 @@ Self-Hosting & DevOps    ████████████████░░�
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=023b&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=react"/>
+## 📊 ◊ DIGITAL PORTFOLIO MATRIX ◊
+
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="50"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=023b&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF6EC7&text_color=FFD700&icon_color=00FFFF&border_color=FF1493"/>
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="50"/>
+
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=synthwave&bg_color=0D1117&title_color=FF6EC7&text_color=FFD700&border_color=FF1493"/>
+<img src="https://media.giphy.com/media/IZOyqDaRlsGVG6Ycxy/giphy.gif" width="50"/>
+
+</div>
+
+---
+
+<div align="center">
+
+### ⚡ NEURAL ACTIVITY STREAM ⚡
+
+<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="80"/>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=023b&theme=neon-dark&background=0D1117&border=FF1493&ring=00FFFF&fire=FF6EC7&currStreakNum=FFD700&sideNums=FFD700&currStreakLabel=00FFFF&sideLabels=FF6EC7&dates=FFD700)](https://git.io/streak-stats)
+
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=023b&theme=react)](https://git.io/streak-stats)
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100"/>
+
+### ◊ RETRO COMPUTING AESTHETIC ◊
+
+<img src="https://media.giphy.com/media/l0HlPystfePnAI3G8/giphy.gif" width="60"/>
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="60"/>
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="60"/>
 
 </div>
 
