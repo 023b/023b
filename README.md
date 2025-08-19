@@ -1,72 +1,63 @@
-# **Arun Prakash**
-*BCA in Artificial Intelligence & Data Science | Aspiring Developer*
+# **Arun Prakash S**  
+*BCA in Artificial Intelligence & Data Science | Independent AI Developer & Researcher | Home Lab Networker*  
+
+```
+  (\_/)
+ (o^.^)
+z(")O
+```  
+*(Cute anime bunny for some fun vibes!)*  
+
+![Retro Pixel GIF](https://user-images.githubusercontent.com/74038190/226127913-88de86d3-8437-45b9-a3b6-e746b47f655a.gif)  
+*(Retro pixel art animation to add that old-school feel)*  
 
 ```python
-class Developer:
-    class Developer:
+class AIEnthusiast:
     def __init__(self):
-        self.name = "Arun Prakash"
-        self.education = "BCA in AI & Data Science"
-        self.institution = "Dr MGR Educational and Research Institute"
-        self.timeline = "Sep 2022 - Jul 2025"
-        self.interests = ["Quantum Computing", "AI", "Machine Learning", "NLP"]
-        
-    def get_skills(self):
-        return {
-            "languages": ["Python", "HTML", "R Studio", "SQL"],
-            "ai_tools": ["Quantum Machine Learning", "Large Language Models", "A3C", "Q-Learning"],
-            "data": ["Quantum Computing", "Data Mining", "Data Science", "Machine Learning"]
-        }
-        
+        self.name = "Arun Prakash S"
+        self.interests = ["AI", "Quantum Computing", "Home Labs", "Networking"]
+        self.motto = "Building privacy-first AI in my retro lab! 🚀"
 
-arun = Developer()
+arun = AIEnthusiast()
+print(arun.motto)
 ```
 
-## 💻 Technical Expertise
+## 💻 Skills  
+| Skill              | Proficiency                  |
+|--------------------|------------------------------|
+| Python             | ![95%](https://progress-bar.dev/95) |
+| LLM Implementation | ![70%](https://progress-bar.dev/70) |
+| Data Mining        | ![90%](https://progress-bar.dev/90) |
+| Networking         | ![80%](https://progress-bar.dev/80) |
+| Model Deployment   | ![60%](https://progress-bar.dev/60) |
 
-```text
-┌─────────────────────────────────────────────────┐
-│                                                 │
-│  LLM Implementation     ███████████░░░░░  70%   │
-│  Reinforcement (A3C)    ████████████░░░░  75%   │
-│  Q-Learning             ██████████████░░  85%   │
-│  Data Mining            ███████████████░  90%   │
-│  NLP Processing         █████████░░░░░░░  55%   │
-│  Python Development     ███████████████  95%    │
-│  Full-Stack Web         ████████░░░░░░░  50%    │
-│  Data Visualization     ███████████░░░░  65%    │
-│  Model Deployment       ██████████░░░░░  60%    │
-│                                                 │
-└─────────────────────────────────────────────────┘
-```
+## 🎓 Education  
+- BCA in AI & Data Science, Dr MGR Educational and Research Institute (2022-2025)  
+- AI Engineer, Datamites (2025-2026)  
 
-## 🎓 Education & Certifications
+## 🏆 Certifications  
+[![IELTS 6.5](https://img.shields.io/badge/IELTS-6.5-blue)](IELTS%20result.pdf)  
+[![Python Programming](https://img.shields.io/badge/Python-Programming-green)](swayam%20programming%20in%20python)  
+[![AI A-Z](https://img.shields.io/badge/AI-A--Z-red)](https://www.udemy.com/certificate/...)  
+And more in Data Science, ML, AI from Great Learning, IBM, Udemy.  
 
-**Academic Education**
-- BCA in AI & Data Science - Dr MGR Educational and Research Institute (Sep 2022 - Jul 2025)
+## 💼 Experience  
+- **IBM Cognitive Intern** (Nov-Dec 2024): Watson AI, blogs, deployment.  
+- **Pantech AI Intern** (2023): Python ML projects, model training.  
 
-**Professional Certifications**
-- Data Mining - Great Learning
-- AI with Python - Great Learning
-- Data Science with Python - Great Learning
-- Introduction to Python - IBM
-- Artificial Intelligence A-Z (2023) - Udemy
+## 🚀 Projects  
+- **Shendu AI**: Local LLM with Obsidian sync. [Repo](https://github.com/023b/Shendu.ai)  
+- **DIY NAS**: TrueNAS home lab.  
+- **Home Network**: VLANs, PoE setup.  
 
-## 💼 Professional Experience
+![Anime GIF](https://user-images.githubusercontent.com/57133330/188281408-c67df9ee-fd1f-4b37-833b-f02848f1ce02.gif)  
+*(Anime animation for extra flair)*  
 
-**Adroit Technologies (IBM Cognitive AI Intern)**
-- **Role**: AI Solutions Trainee | Nov 2024
-- **Key Work**:
-  - Trained in IBM Watson's AI stack (NLP, cognitive computing)
-  - Researched & blogged about ML integration in enterprise solutions
-  - Gained hands-on experience with IBM Cloud AI deployment tools
-    
-**Pantech Solutions**
-- **Role**: AI Intern
-- **Duration**: 2023
-- **Responsibilities**: Worked on AI implementation projects utilizing Python and machine learning frameworks
+## 📊 Stats  
+<img src="https://pixel-profile.vercel.app/api/github-stats?username=023b&theme=CRT&screen_effect=true&pixelate_avatar=true&dithering=true" alt="Pixel Art GitHub Stats">  
+*(Retro pixel art stats with CRT effect for that vintage vibe)*  
 
-## 📫 Connect With Me
-[Email](mailto:arunsabapathi2486@gmail.com) • [LinkedIn](https://www.linkedin.com/in/arun-prakash-s-739881230/)
+## 📫 Connect  
+[Email](mailto:arunsabapathi2486@gmail.com) | [LinkedIn](https://www.linkedin.com/in/arun-prakash-s-739881230/) | +91 9342439528  
 
-+91 9342439528
+Let's geek out on AI and retro tech! 🌟
