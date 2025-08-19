@@ -27,74 +27,76 @@
 
 </div>
 
-```python
-class AITitan:
-    """
-    🔥 Like Luffy's determination, Senku's logic, and Armin's strategy
-    """
-    def __init__(self):
-        self.name = "Arun Prakash S"
-        self.title = "AI Titan | Digital Alchemist"
-        self.location = "🏴‍☠️ Coimbatore, Tamil Nadu, India"
-        self.dream = "Building AI that serves humanity, not enslaves it"
-        self.power_level = "∞"  # Still growing like a Saiyan
-        
-        # Character Stats (RPG Style)
-        self.stats = {
-            "Intelligence": 95,    # Senku Ishigami level
-            "Determination": 99,   # Monkey D. Luffy energy
-            "Strategy": 88,        # Armin Arlert tactics
-            "Innovation": 92,      # Edward Elric alchemy
-            "Privacy Protection": 100  # Protecting data like protecting nakama
-        }
-    
-    def current_arc(self):
-        """Current story arc - The Home Lab Saga"""
-        return {
-            "🧠 Shendu AI Arc": {
-                "power": "Local AI Mastery",
-                "ability": "Knowledge Graph Manipulation",
-                "secret_technique": "Privacy-First Jutsu"
-            },
-            "🏠 Infrastructure Arc": {
-                "power": "Network Domain Expansion", 
-                "ability": "TrueNAS SCALE Summoning",
-                "secret_technique": "3-Tier Architecture Style"
-            },
-            "🔐 Privacy Warrior Arc": {
-                "power": "Data Sovereignty",
-                "ability": "Local Processing Haki",
-                "secret_technique": "Zero-Cloud Technique"
-            }
-        }
-    
-    def devil_fruit_powers(self):
-        """My abilities in this digital world"""
-        return {
-            "Gomu-Gomu no Python": ["TensorFlow", "PyTorch", "Scikit-learn"],
-            "Mera-Mera no AI": ["LLMs", "Computer Vision", "NLP", "Q-Learning"], 
-            "Hie-Hie no Data": ["Pandas", "NumPy", "R", "SQL"],
-            "Gura-Gura no Network": ["Docker", "TrueNAS", "Tailscale", "PoE"],
-            "Nika-Nika no Innovation": ["Local AI", "Privacy Tech", "Self-Hosting"]
-        }
-    
-    def crew_members(self):
-        """Tools that fight alongside me"""
-        return {
-            "First Mate": "Shendu AI (My loyal AI companion)",
-            "Navigator": "Obsidian (Maps my knowledge)",
-            "Chef": "Python (Cooks up solutions)",
-            "Doctor": "TrueNAS (Heals data corruption)",
-            "Sniper": "Tailscale (Precise remote access)"
-        }
-    
-    def ultimate_goal(self):
-        return "🏴‍☠️ Become the AI King! Create technology that's truly free! 🏴‍☠️"
+<div align="center">
 
-# The journey continues...
-titan = AITitan()
-print("🌟 PLUS ULTRA! The AI revolution starts with privacy! 🌟")
+## ⚡ CHARACTER STATS DISPLAY ⚡
+
+![Anime Character Stats](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&text=ARUN%20PRAKASH%20S&fontSize=32&fontColor=fff&animation=twinkling)
+
+<table align="center">
+<tr>
+<td width="50%">
+
+### 🔥 PROTAGONIST PROFILE
+```yaml
+Name: Arun Prakash S
+Title: AI Titan | Digital Alchemist  
+Location: Coimbatore, Tamil Nadu
+Dream: "Building AI that serves humanity"
+Power Level: ∞ (Still growing like a Saiyan)
 ```
+
+### ⚔️ BATTLE STATS
+```
+Intelligence     ██████████████████░░ 95%
+Determination    ███████████████████░ 99% 
+Strategy         █████████████████░░░ 88%
+Innovation       ██████████████████░░ 92%
+Privacy Guard    ████████████████████ 100%
+```
+
+</td>
+<td width="50%">
+
+### 🌟 CURRENT STORY ARCS
+
+**🧠 Shendu AI Arc**
+- Power: Local AI Mastery
+- Technique: Privacy-First Jutsu
+- Status: Active Mission
+
+**🏠 Infrastructure Arc** 
+- Power: Network Domain Expansion
+- Technique: 3-Tier Architecture Style
+- Status: Legendary Victory
+
+**🔐 Privacy Warrior Arc**
+- Power: Data Sovereignty 
+- Technique: Zero-Cloud Style
+- Status: Ongoing Quest
+
+</td>
+</tr>
+</table>
+
+![Skill Animation](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2)
+
+### 🎯 ULTIMATE ABILITIES
+
+<div align="center">
+
+| 🔥 Fire Style | ❄️ Ice Style | ⚡ Lightning Style | 🌊 Water Style |
+|:---:|:---:|:---:|:---:|
+| **Python Mastery** | **Data Analysis** | **AI/ML Techniques** | **Network Flow** |
+| TensorFlow | Pandas | Computer Vision | Docker |
+| PyTorch | NumPy | NLP Processing | TrueNAS |
+| Scikit-learn | R Studio | Q-Learning | Tailscale |
+
+</div>
+
+![Mission Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=MISSION:%20BECOME%20THE%20AI%20KING&fontSize=24&fontColor=fff&animation=fadeIn)
+
+</div>
 
 <div align="center">
 
