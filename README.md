@@ -6,110 +6,39 @@
 
 </div>
 
-## ⚔️ THE LEGEND BEGINS ⚔️
+## 🚀 About Me
 
-<div align="center">
+```python
+class ArunPrakash:
+    def __init__(self):
+        self.name = "Arun Prakash S"
+        self.role = "Independent AI Developer & Researcher"
+        self.location = "Coimbatore, Tamil Nadu, India"
+        self.education = "BCA in AI & Data Science"
+        self.institution = "Dr MGR Educational and Research Institute"
+        self.timeline = "Sep 2022 - Jul 2025"
+        self.current_focus = ["Local AI Systems", "Home Lab Networking", "Privacy-First Solutions"]
+        
+    def current_projects(self):
+        return {
+            "Shendu AI": "Local AI assistant with Obsidian integration",
+            "Home Lab": "Self-hosted NAS with TrueNAS SCALE",
+            "Network Infrastructure": "3-tier PoE-enabled security system",
+            "Privacy Tools": "Building sovereign AI solutions"
+        }
+    
+    def get_skills(self):
+        return {
+            "languages": ["Python", "R", "SQL", "HTML/CSS", "JavaScript"],
+            "ai_ml": ["LLMs", "Computer Vision", "NLP", "Reinforcement Learning", "Q-Learning"],
+            "frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"],
+            "tools": ["Docker", "Git", "Jupyter", "Obsidian", "TrueNAS"],
+            "specialties": ["Local AI", "Data Privacy", "Home Networking", "Self-Hosting"]
+        }
 
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" width="300"/>
-
-### "In this world, you fight or you die. In AI, you adapt or become obsolete."
-*- The way of the AI Titan -*
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="60"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7b282ec6-fcc3-4600-90a7-2c3140549f58" width="60"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="60"/>
-
-</div>
-
-<div align="center">
-
-## ⚡ CHARACTER STATS DISPLAY ⚡
-
-![Anime Character Stats](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&text=ARUN%20PRAKASH%20S&fontSize=32&fontColor=fff&animation=twinkling)
-
-<table align="center">
-<tr>
-<td width="50%">
-
-### 🔥 PROTAGONIST PROFILE
-```yaml
-Name: Arun Prakash S
-Title: AI Titan | Digital Alchemist  
-Location: Coimbatore, Tamil Nadu
-Dream: "Building AI that serves humanity"
-Power Level: ∞ (Still growing like a Saiyan)
+# Initialize developer
+arun = ArunPrakash()
 ```
-
-### ⚔️ BATTLE STATS
-```
-Intelligence     ██████████████████░░ 95%
-Determination    ███████████████████░ 99% 
-Strategy         █████████████████░░░ 88%
-Innovation       ██████████████████░░ 92%
-Privacy Guard    ████████████████████ 100%
-```
-
-</td>
-<td width="50%">
-
-### 🌟 CURRENT STORY ARCS
-
-**🧠 Shendu AI Arc**
-- Power: Local AI Mastery
-- Technique: Privacy-First Jutsu
-- Status: Active Mission
-
-**🏠 Infrastructure Arc** 
-- Power: Network Domain Expansion
-- Technique: 3-Tier Architecture Style
-- Status: Legendary Victory
-
-**🔐 Privacy Warrior Arc**
-- Power: Data Sovereignty 
-- Technique: Zero-Cloud Style
-- Status: Ongoing Quest
-
-</td>
-</tr>
-</table>
-
-![Skill Animation](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2)
-
-### 🎯 ULTIMATE ABILITIES
-
-<div align="center">
-
-| 🔥 Fire Style | ❄️ Ice Style | ⚡ Lightning Style | 🌊 Water Style |
-|:---:|:---:|:---:|:---:|
-| **Python Mastery** | **Data Analysis** | **AI/ML Techniques** | **Network Flow** |
-| TensorFlow | Pandas | Computer Vision | Docker |
-| PyTorch | NumPy | NLP Processing | TrueNAS |
-| Scikit-learn | R Studio | Q-Learning | Tailscale |
-
-</div>
-
-![Mission Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=MISSION:%20BECOME%20THE%20AI%20KING&fontSize=24&fontColor=fff&animation=fadeIn)
-
-</div>
-
-<div align="center">
-
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/b3fbb617-6198-4ab8-82f0-3b9c7e2a8c6e" width="400"/>
-
-### 💀 CURRENT BOUNTY: ∞ Privacy Points 💀
-*"The man who will become the AI King!"*
-
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d33-b2be-de8d66f5737d" width="50"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7bb1e704-6026-48f9-8435-2f4d40101348" width="50"/>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d33-b2be-de8d66f5737d" width="50"/>
-
-</div>
 
 ## 🔥 Featured Projects
 
@@ -197,41 +126,14 @@ Self-Hosting & DevOps    ████████████████░░�
 
 <div align="center">
 
-## 📊 ◊ DIGITAL PORTFOLIO MATRIX ◊
-
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="50"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=023b&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF6EC7&text_color=FFD700&icon_color=00FFFF&border_color=FF1493"/>
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="50"/>
-
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=synthwave&bg_color=0D1117&title_color=FF6EC7&text_color=FFD700&border_color=FF1493"/>
-<img src="https://media.giphy.com/media/IZOyqDaRlsGVG6Ycxy/giphy.gif" width="50"/>
-
-</div>
-
----
-
-<div align="center">
-
-### ⚡ NEURAL ACTIVITY STREAM ⚡
-
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="80"/>
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=023b&theme=neon-dark&background=0D1117&border=FF1493&ring=00FFFF&fire=FF6EC7&currStreakNum=FFD700&sideNums=FFD700&currStreakLabel=00FFFF&sideLabels=FF6EC7&dates=FFD700)](https://git.io/streak-stats)
-
-<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=023b&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=023b&layout=compact&theme=react"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100"/>
-
-### ◊ RETRO COMPUTING AESTHETIC ◊
-
-<img src="https://media.giphy.com/media/l0HlPystfePnAI3G8/giphy.gif" width="60"/>
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="60"/>
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="60"/>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=023b&theme=react)](https://git.io/streak-stats)
 
 </div>
 
