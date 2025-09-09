@@ -1,639 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arun Prakash S - AI Developer</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
-        
-        :root {
-            --primary-green: #00ff41;
-            --secondary-green: #008f11;
-            --dark-bg: #0d1117;
-            --terminal-bg: #010409;
-            --border-color: #30363d;
-            --text-dim: #7d8590;
-            --text-bright: #f0f6fc;
-            --cursor-blink: 1.2s;
-        }
+# 🚀 Arun Prakash S
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+```
+    ▄▄▄       ██▀███   █    ██  ███▄    █     ██▓███   ██▀███   ▄▄▄        
+   ▒████▄    ▓██ ▒ ██▒ ██  ▓██▒ ██ ▀█   █    ▓██░  ██▒▓██ ▒ ██▒▒████▄      
+   ▒██  ▀█▄  ▓██ ░▄█ ▒▓██  ▒██░▓██  ▀█ ██▒   ▓██░ ██▓▒▓██ ░▄█ ▒▒██  ▀█▄    
+   ░██▄▄▄▄██ ▒██▀▀█▄  ▓▓█  ░██░▓██▒  ▐▌██▒   ▒██▄█▓▒ ▒▒██▀▀█▄  ░██▄▄▄▄██   
+    ▓█   ▓██▒░██▓ ▒██▒▒▒█████▓ ▒██░   ▓██░   ▒██▒ ░  ░░██▓ ▒██▒ ▓█   ▓██▒  
+    ▒▒   ▓▒█░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒    ▒▓▒░ ░  ░░ ▒▓ ░▒▓░ ▒▒   ▓▒█░  
+     ▒   ▒▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░░   ░ ▒░   ░▒ ░       ░▒ ░ ▒░  ▒   ▒▒ ░  
+     ░   ▒     ░░   ░  ░░░ ░ ░    ░   ░ ░    ░░         ░░   ░   ░   ▒     
+         ░  ░   ░        ░              ░                ░           ░  ░  
+```
 
-        body {
-            font-family: 'JetBrains Mono', monospace;
-            background: var(--dark-bg);
-            color: var(--text-bright);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+**Independent AI Developer & Researcher | Home Lab Networker**  
+📍 Coimbatore, Tamil Nadu, India  
+💼 Open to AI/ML Research & Development Opportunities
 
-        /* Terminal Window */
-        .terminal-window {
-            background: var(--terminal-bg);
-            border: 2px solid var(--border-color);
-            border-radius: 12px;
-            margin: 20px auto;
-            max-width: 1200px;
-            box-shadow: 0 20px 60px rgba(0, 255, 65, 0.1);
-            overflow: hidden;
-            animation: terminalGlow 3s ease-in-out infinite alternate;
-        }
+---
 
-        @keyframes terminalGlow {
-            0% { box-shadow: 0 20px 60px rgba(0, 255, 65, 0.1); }
-            100% { box-shadow: 0 20px 80px rgba(0, 255, 65, 0.2); }
-        }
+## 🎯 About Me
 
-        .terminal-header {
-            background: var(--border-color);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+Recent BCA (AI & DS) graduate who enjoys building and learning about technology that solves real problems. I'm passionate about **privacy-first AI**, **local LLM deployment**, and **self-hosted infrastructure**. Currently diving deep into Brain-Computer Interfaces, quantum-enhanced machine learning, and distributed AI systems.
 
-        .terminal-buttons {
-            display: flex;
-            gap: 8px;
-        }
+> *"Open to opportunities where I can learn, take initiative, and work with people who value continuous improvement."*
 
-        .btn {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
+## 📊 Quick Stats
 
-        .btn.close { background: #ff5f56; }
-        .btn.minimize { background: #ffbd2e; }
-        .btn.maximize { background: #27ca3f; }
+```bash
+$ cat ~/.stats
+├── GitHub Followers: 709+
+├── LinkedIn Connections: 500+
+├── AI Projects Completed: 15+
+├── Home Lab Uptime: 24/7
+└── Privacy Level: Maximum
+```
 
-        .terminal-title {
-            margin-left: auto;
-            font-size: 12px;
-            color: var(--text-dim);
-            font-weight: 500;
-        }
+---
 
-        .terminal-content {
-            padding: 30px;
-            min-height: 100vh;
-        }
+## 🔬 Featured Projects
 
-        /* Typing Animation */
-        .prompt-line {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-        }
+### 🧠 **Brain-Computer Interface (BCI) Framework** 
+*Sep 2024 - Present*
 
-        .prompt {
-            color: var(--primary-green);
-            margin-right: 10px;
-            font-weight: 600;
-        }
+Comprehensive, modular BCI framework supporting signal acquisition, preprocessing, machine learning inference, and user interaction.
 
-        .typing {
-            border-right: 2px solid var(--primary-green);
-            animation: blink var(--cursor-blink) infinite;
-        }
+**Key Features:**
+- EEG data analysis with motor imagery classification
+- Real-time processing pipelines
+- Synthetic signal generation for testing
+- PhysioNet dataset integration
+- Interactive dashboards
 
-        @keyframes blink {
-            0%, 50% { border-right-color: var(--primary-green); }
-            51%, 100% { border-right-color: transparent; }
-        }
+**Tech Stack:** `Python` `Signal Processing` `Machine Learning` `Real-time Systems`
 
-        /* ASCII Art */
-        .ascii-art {
-            color: var(--primary-green);
-            font-size: 10px;
-            line-height: 1;
-            margin: 20px 0;
-            font-weight: 400;
-        }
+---
 
-        /* Sections */
-        .section {
-            margin: 40px 0;
-            opacity: 0;
-            animation: fadeInUp 0.8s ease forwards;
-        }
+### 🤖 **Shendu: Local AI Assistant for Obsidian**
+*May 2025 - Jul 2025*
 
-        .section:nth-child(2) { animation-delay: 0.5s; }
-        .section:nth-child(3) { animation-delay: 1s; }
-        .section:nth-child(4) { animation-delay: 1.5s; }
-        .section:nth-child(5) { animation-delay: 2s; }
+Privacy-first AI assistant leveraging custom-trained Mistral-7B model integrated with personal Obsidian knowledge base.
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+**Revolutionary Features:**
+- 🔒 **100% Privacy**: Everything runs locally, no data leaves device
+- ⚡ **Real-Time Sync**: Notes sync every 5 minutes
+- 🗣️ **Conversational Search**: Natural language queries on personal data
+- 🧠 **Smart Memory**: Context-aware responses with learning
+- 🎯 **Complete Ownership**: No API calls, no cloud dependencies
 
-        .section-header {
-            color: var(--primary-green);
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 5px;
-        }
+**Tech Stack:** `Local LLM` `Mistral-7B` `Python` `Vector Embeddings` `Obsidian API`
 
-        /* Project Cards */
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
+---
 
-        .project-card {
-            background: rgba(48, 54, 61, 0.3);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 20px;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
+### ⚛️ **Quantum-Enhanced Neural Network Classifier**
+*Mar 2024 - Aug 2024*
 
-        .project-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--primary-green), transparent);
-            transition: left 0.5s ease;
-        }
+Revolutionary research project exploring quantum computing principles integrated with classical machine learning.
 
-        .project-card:hover::before {
-            left: 100%;
-        }
+**Breakthrough Results:**
+- 📈 **92% Accuracy** (vs 85% classical ML)
+- ⚡ **20% Faster Training** (95s vs 120s)
+- 🔬 Novel quantum-inspired feature mapping
+- 🌉 Hybrid classical-quantum architecture
 
-        .project-card:hover {
-            border-color: var(--primary-green);
-            background: rgba(0, 255, 65, 0.05);
-            transform: translateY(-5px);
-        }
+**Tech Stack:** `Quantum Computing` `Qiskit` `PyTorch` `Pattern Recognition`
 
-        .project-title {
-            color: var(--primary-green);
-            font-weight: 600;
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
+---
 
-        .project-desc {
-            color: var(--text-dim);
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
+### 🌐 **Distributed Healthcare Q&A System**
+*Feb 2025 - Apr 2025*
 
-        .project-tech {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
+Large-scale distributed medical Q&A system using transformer models across multiple machines.
 
-        .tech-tag {
-            background: rgba(0, 255, 65, 0.1);
-            color: var(--primary-green);
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            border: 1px solid rgba(0, 255, 65, 0.3);
-        }
+**Architecture:**
+- 6-node distributed deployment
+- Facebook OPT-1.3B model
+- ZeroMQ communication layer
+- Real-time browser dashboard
+- Scalable LLM micro-infrastructure
 
-        /* Stats Grid */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
+**Tech Stack:** `Distributed Systems` `HuggingFace Transformers` `ZeroMQ` `Healthcare AI`
 
-        .stat-item {
-            text-align: center;
-            padding: 20px;
-            background: rgba(48, 54, 61, 0.2);
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-        }
+---
 
-        .stat-number {
-            color: var(--primary-green);
-            font-size: 32px;
-            font-weight: 700;
-            display: block;
-        }
+### 👁️ **Live Webcam Object Classification System**
+*Jun 2024 - Aug 2024*
 
-        .stat-label {
-            color: var(--text-dim);
-            font-size: 14px;
-            margin-top: 5px;
-        }
+Real-time object classification with custom training capabilities directly through webcam interface.
 
-        /* Contact Links */
-        .contact-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
-        }
+**Features:**
+- Real-time face and object detection
+- Easy training for new classes via webcam
+- Confidence indicators with color coding
+- Multiple recognition classes support
 
-        .contact-link {
-            color: var(--primary-green);
-            text-decoration: none;
-            padding: 10px 15px;
-            border: 1px solid var(--primary-green);
-            border-radius: 6px;
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
+**Tech Stack:** `Computer Vision` `OpenCV` `Machine Learning` `Real-time Processing`
 
-        .contact-link:hover {
-            background: var(--primary-green);
-            color: var(--terminal-bg);
-            box-shadow: 0 5px 15px rgba(0, 255, 65, 0.3);
-        }
+---
 
-        /* Command History */
-        .command-history {
-            margin: 30px 0;
-            padding: 20px;
-            background: rgba(48, 54, 61, 0.2);
-            border-radius: 8px;
-            border-left: 4px solid var(--primary-green);
-        }
+### 🏠 **Home Lab Infrastructure**
+*Ongoing*
 
-        .command {
-            display: flex;
-            margin: 10px 0;
-            font-size: 14px;
-        }
+Enterprise-grade home network with self-hosted services and comprehensive monitoring.
 
-        .command-prompt {
-            color: var(--primary-green);
-            margin-right: 10px;
-        }
+**Architecture:**
+```
+Core Layer: Jio Router
+    ↓
+Distribution: 8-Port Switch  
+    ↓
+Access: PoE Switches per Floor
+    ↓
+Devices: Cameras, NAS, VMs
+```
 
-        .command-output {
-            color: var(--text-dim);
-        }
+**Features:**
+- TrueNAS SCALE with ZFS snapshots
+- VLAN segmentation for security
+- Tailscale for secure remote access
+- Dahua NVR integration
+- Pop!_OS VM for development
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .terminal-window {
-                margin: 10px;
-                border-radius: 8px;
-            }
-            
-            .terminal-content {
-                padding: 20px;
-            }
-            
-            .ascii-art {
-                font-size: 8px;
-            }
-            
-            .project-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
+**Tech Stack:** `Networking` `TrueNAS` `ZFS` `VLAN` `Self-hosting` `Tailscale`
 
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
+---
 
-        ::-webkit-scrollbar-track {
-            background: var(--terminal-bg);
-        }
+## 💻 Technical Skills
 
-        ::-webkit-scrollbar-thumb {
-            background: var(--primary-green);
-            border-radius: 4px;
-        }
+### **AI/ML Expertise**
+```python
+skills = {
+    "frameworks": ["PyTorch", "TensorFlow", "HuggingFace", "Transformers"],
+    "specialties": ["LLMs", "Computer Vision", "NLP", "Signal Processing"],
+    "deployment": ["Local Models", "Distributed Systems", "Real-time Inference"]
+}
+```
 
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--secondary-green);
-        }
-    </style>
-</head>
-<body>
-    <div class="terminal-window">
-        <div class="terminal-header">
-            <div class="terminal-buttons">
-                <div class="btn close"></div>
-                <div class="btn minimize"></div>
-                <div class="btn maximize"></div>
-            </div>
-            <div class="terminal-title">arun@homelab:~/portfolio — zsh — 80×24</div>
-        </div>
-        
-        <div class="terminal-content">
-            <div class="prompt-line">
-                <span class="prompt">arun@homelab:~$</span>
-                <span class="typing" id="typed-text"></span>
-            </div>
+### **Quantum Computing**
+```python
+quantum_skills = {
+    "frameworks": ["Qiskit", "IBM Quantum"],
+    "concepts": ["Quantum Circuits", "Hybrid Systems", "Quantum ML"],
+    "applications": ["Optimization", "Pattern Recognition", "Feature Mapping"]
+}
+```
 
-            <div class="ascii-art">
-    ╔═══════════════════════════════════════════════════════════════════════════╗
-    ║   ▄▄▄       ██▀███   █    ██  ███▄    █     ██▓███   ██▀███   ▄▄▄        ║
-    ║  ▒████▄    ▓██ ▒ ██▒ ██  ▓██▒ ██ ▀█   █    ▓██░  ██▒▓██ ▒ ██▒▒████▄      ║
-    ║  ▒██  ▀█▄  ▓██ ░▄█ ▒▓██  ▒██░▓██  ▀█ ██▒   ▓██░ ██▓▒▓██ ░▄█ ▒▒██  ▀█▄    ║
-    ║  ░██▄▄▄▄██ ▒██▀▀█▄  ▓▓█  ░██░▓██▒  ▐▌██▒   ▒██▄█▓▒ ▒▒██▀▀█▄  ░██▄▄▄▄██   ║
-    ║   ▓█   ▓██▒░██▓ ▒██▒▒▒█████▓ ▒██░   ▓██░   ▒██▒ ░  ░░██▓ ▒██▒ ▓█   ▓██▒  ║
-    ║   ▒▒   ▓▒█░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒    ▒▓▒░ ░  ░░ ▒▓ ░▒▓░ ▒▒   ▓▒█░  ║
-    ║    ▒   ▒▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░░   ░ ▒░   ░▒ ░       ░▒ ░ ▒░  ▒   ▒▒ ░  ║
-    ║    ░   ▒     ░░   ░  ░░░ ░ ░    ░   ░ ░    ░░         ░░   ░   ░   ▒     ║
-    ║        ░  ░   ░        ░              ░                ░           ░  ░  ║
-    ╚═══════════════════════════════════════════════════════════════════════════╝
-                      Independent AI Developer & Researcher 
-                           Coimbatore, Tamil Nadu, India
-            </div>
+### **Programming Languages**
+- **Primary:** Python, JavaScript, R
+- **Web:** HTML/CSS, Node.js, Flask
+- **Data:** SQL, NoSQL
+- **Systems:** Bash, Linux Administration
 
-            <div class="command-history">
-                <div class="command">
-                    <span class="command-prompt">$</span>
-                    <span class="command-output">cat /etc/motd</span>
-                </div>
-                <div class="command">
-                    <span class="command-prompt">></span>
-                    <span class="command-output">Welcome to Arun's AI Development Environment</span>
-                </div>
-                <div class="command">
-                    <span class="command-prompt">></span>
-                    <span class="command-output">System Status: Online | Home Lab: Active | Projects: Running</span>
-                </div>
-            </div>
+### **Infrastructure & DevOps**
+```yaml
+infrastructure:
+  storage: [TrueNAS, ZFS, NAS]
+  networking: [VLAN, PoE, Switching]
+  security: [Tailscale, VPN, Firewalls]
+  monitoring: [Netdata, System Health]
+  virtualization: [VMs, Containers]
+```
 
-            <div class="section">
-                <div class="section-header">ABOUT.md</div>
-                <p style="color: var(--text-dim);">
-                    Recent BCA (AI & DS) graduate passionate about building technology that solves real problems. 
-                    Currently diving deep into Brain-Computer Interfaces, quantum-enhanced ML, and local AI systems.
-                    I believe in privacy-first architecture, self-hosted solutions, and digital sovereignty.
-                </p>
-                
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <span class="stat-number">15+</span>
-                        <span class="stat-label">AI Projects</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">709</span>
-                        <span class="stat-label">GitHub Followers</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">500+</span>
-                        <span class="stat-label">LinkedIn Connections</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">24/7</span>
-                        <span class="stat-label">Home Lab Uptime</span>
-                    </div>
-                </div>
-            </div>
+---
 
-            <div class="section">
-                <div class="section-header">FEATURED_PROJECTS.json</div>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <div class="project-title">🧠 Brain-Computer Interface Framework</div>
-                        <div class="project-desc">Comprehensive modular BCI system with EEG analysis, motor imagery classification, and real-time processing pipelines. Features synthetic signal generation and PhysioNet dataset support.</div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Signal Processing</span>
-                            <span class="tech-tag">ML</span>
-                            <span class="tech-tag">Real-time</span>
-                        </div>
-                    </div>
+## 🏆 Certifications & Education
 
-                    <div class="project-card">
-                        <div class="project-title">🤖 Shendu: Local AI Assistant</div>
-                        <div class="project-desc">Privacy-first AI assistant with custom Mistral-7B model, integrated with Obsidian vault. Features semantic search, background sync, and zero cloud dependencies.</div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Local LLM</span>
-                            <span class="tech-tag">Privacy-First</span>
-                            <span class="tech-tag">Vector Search</span>
-                            <span class="tech-tag">Obsidian API</span>
-                        </div>
-                    </div>
+### **Current Education**
+- **AI Engineer** - DataMites (Aug 2025 - May 2026)
+- **BCA (AI & DS)** - Dr MGR Educational and Research Institute (2022-2025)
 
-                    <div class="project-card">
-                        <div class="project-title">⚛️ Quantum-Enhanced Neural Networks</div>
-                        <div class="project-desc">Novel approach combining quantum computing with classical ML. Achieved 92% accuracy vs 85% classical, with 20% faster training using quantum-inspired feature mapping.</div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Quantum Computing</span>
-                            <span class="tech-tag">Qiskit</span>
-                            <span class="tech-tag">Hybrid Systems</span>
-                            <span class="tech-tag">Research</span>
-                        </div>
-                    </div>
+### **Key Certifications**
+- IELTS Academic Test (Jul 2025)
+- Programming in Python - SWAYAM MHRD
+- AI & Machine Learning with Deep Learning - Techobytes
+- Artificial Intelligence A-Z - Udemy
+- Data Science Excellence - Bitspace
 
-                    <div class="project-card">
-                        <div class="project-title">🌐 Distributed Healthcare Q&A System</div>
-                        <div class="project-desc">Large-scale medical Q&A system using OPT-1.3B across multiple machines. Built with ZeroMQ, HuggingFace Transformers, and real-time dashboard.</div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Distributed Systems</span>
-                            <span class="tech-tag">LLM</span>
-                            <span class="tech-tag">Healthcare</span>
-                            <span class="tech-tag">ZeroMQ</span>
-                        </div>
-                    </div>
+---
 
-                    <div class="project-card">
-                        <div class="project-title">👁️ Live Object Classification</div>
-                        <div class="project-desc">Real-time webcam object detection with custom class training. Features confidence indicators, OpenCV integration, and intuitive user interface.</div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Computer Vision</span>
-                            <span class="tech-tag">OpenCV</span>
-                            <span class="tech-tag">Real-time</span>
-                            <span class="tech-tag">Classification</span>
-                        </div>
-                    </div>
+## 🌟 Professional Experience
 
-                    <div class="project-card">
-                        <div class="project-title">🏠 Home Lab Infrastructure</div>
-                        <div class="project-desc">3-tier network with TrueNAS SCALE, PoE cameras, VLAN segmentation, and Tailscale remote access. Features ZFS snapshots and VM hosting.</div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Networking</span>
-                            <span class="tech-tag">TrueNAS</span>
-                            <span class="tech-tag">Self-hosted</span>
-                            <span class="tech-tag">ZFS</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+### **Cognitive Solutions & Technical Content Intern**
+**IBM (via Prolearn)** | *Nov 2024 - Dec 2024*
+- Explored IBM cognitive services and Watson AI platforms
+- Created technical documentation and blog content
+- Gained expertise in communicating complex AI technologies
 
-            <div class="section">
-                <div class="section-header">SKILLS.cfg</div>
-                <div class="command-history">
-                    <div class="command">
-                        <span class="command-prompt">AI/ML:</span>
-                        <span class="command-output">PyTorch, TensorFlow, HuggingFace, Transformers, LLMs, Computer Vision</span>
-                    </div>
-                    <div class="command">
-                        <span class="command-prompt">Quantum:</span>
-                        <span class="command-output">Qiskit, Quantum Circuits, Hybrid Classical-Quantum Systems</span>
-                    </div>
-                    <div class="command">
-                        <span class="command-prompt">Languages:</span>
-                        <span class="command-output">Python, JavaScript, R, HTML/CSS, Node.js</span>
-                    </div>
-                    <div class="command">
-                        <span class="command-prompt">Infrastructure:</span>
-                        <span class="command-output">TrueNAS, ZFS, Networking, Self-hosting, Tailscale</span>
-                    </div>
-                    <div class="command">
-                        <span class="command-prompt">Specialties:</span>
-                        <span class="command-output">Privacy-first AI, Local LLMs, Distributed Systems, BCI</span>
-                    </div>
-                </div>
-            </div>
+### **AI Development Intern**
+**Pantech Solutions** | *Jan 2023 - Apr 2023*
+- Worked on real-time AI implementation and ML integration
+- Contributed to training pipelines and model deployment
+- Developed production-level machine learning systems
 
-            <div class="section">
-                <div class="section-header">CONTACT.sh</div>
-                <div class="contact-links">
-                    <a href="https://github.com/023b" class="contact-link">📁 GitHub</a>
-                    <a href="https://linkedin.com/in/arun-prakash-s" class="contact-link">💼 LinkedIn</a>
-                    <a href="mailto:arun@example.com" class="contact-link">📧 Email</a>
-                    <a href="#" class="contact-link">🏠 Home Lab</a>
-                </div>
-            </div>
+---
 
-            <div class="prompt-line" style="margin-top: 40px;">
-                <span class="prompt">arun@homelab:~$</span>
-                <span class="typing">_</span>
-            </div>
-        </div>
-    </div>
+## 🎨 Philosophy & Approach
 
-    <script>
-        // Typing animation
-        const texts = [
-            "whoami",
-            "cat README.md",
-            "ls -la projects/",
-            "./run_portfolio.sh",
-            "echo 'Welcome to my digital space!'"
-        ];
-        
-        let textIndex = 0;
-        let charIndex = 0;
-        const typedElement = document.getElementById('typed-text');
-        
-        function typeText() {
-            if (charIndex < texts[textIndex].length) {
-                typedElement.textContent += texts[textIndex].charAt(charIndex);
-                charIndex++;
-                setTimeout(typeText, 100);
-            } else {
-                setTimeout(eraseText, 2000);
-            }
-        }
-        
-        function eraseText() {
-            if (charIndex > 0) {
-                typedElement.textContent = texts[textIndex].substring(0, charIndex - 1);
-                charIndex--;
-                setTimeout(eraseText, 50);
-            } else {
-                textIndex = (textIndex + 1) % texts.length;
-                setTimeout(typeText, 500);
-            }
-        }
-        
-        // Start typing animation
-        setTimeout(typeText, 1000);
+### **Privacy-First Development**
+In a world of data harvesting, I believe in digital sovereignty. All my AI projects prioritize:
+- Local deployment over cloud dependency
+- Data ownership over convenience
+- Self-hosted solutions over SaaS
+- Open source over proprietary
 
-        // Add subtle glitch effect
-        function addGlitch() {
-            const cards = document.querySelectorAll('.project-card');
-            cards.forEach(card => {
-                card.addEventListener('mouseenter', () => {
-                    card.style.textShadow = '0 0 10px rgba(0, 255, 65, 0.5)';
-                });
-                card.addEventListener('mouseleave', () => {
-                    card.style.textShadow = 'none';
-                });
-            });
-        }
+### **Real-World Impact**
+Technology should solve actual problems, not create new ones. My projects focus on:
+- Practical applications with measurable outcomes
+- Accessibility and user empowerment
+- Sustainable and ethical AI development
+- Knowledge sharing and open collaboration
 
-        // Initialize effects
-        window.addEventListener('load', addGlitch);
+---
 
-        // Matrix-style background effect
-        function createMatrixRain() {
-            const chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
-            const canvas = document.createElement('canvas');
-            const ctx = canvas.getContext('2d');
-            
-            canvas.style.position = 'fixed';
-            canvas.style.top = '0';
-            canvas.style.left = '0';
-            canvas.style.width = '100%';
-            canvas.style.height = '100%';
-            canvas.style.zIndex = '-1';
-            canvas.style.opacity = '0.03';
-            
-            document.body.appendChild(canvas);
-            
-            function resizeCanvas() {
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-            }
-            
-            resizeCanvas();
-            window.addEventListener('resize', resizeCanvas);
-            
-            const drops = [];
-            const columns = canvas.width / 20;
-            
-            for (let i = 0; i < columns; i++) {
-                drops[i] = 1;
-            }
-            
-            function drawMatrix() {
-                ctx.fillStyle = 'rgba(1, 4, 9, 0.05)';
-                ctx.fillRect(0, 0, canvas.width, canvas.height);
-                
-                ctx.fillStyle = '#00ff41';
-                ctx.font = '15px JetBrains Mono';
-                
-                for (let i = 0; i < drops.length; i++) {
-                    const text = chars[Math.floor(Math.random() * chars.length)];
-                    ctx.fillText(text, i * 20, drops[i] * 20);
-                    
-                    if (drops[i] * 20 > canvas.height && Math.random() > 0.975) {
-                        drops[i] = 0;
-                    }
-                    
-                    drops[i]++;
-                }
-            }
-            
-            setInterval(drawMatrix, 100);
-        }
-        
-        // Uncomment to enable matrix effect
-        // createMatrixRain();
-    </script>
-</body>
-</html>
+## 📈 Recent Highlights
+
+```bash
+$ git log --oneline --since="3 months ago"
+* feat: Completed BCI framework with real-time processing
+* feat: Deployed Shendu with 100% local AI capabilities  
+* feat: Published quantum ML research with 92% accuracy
+* feat: Built distributed healthcare Q&A system
+* feat: Upgraded home lab infrastructure to TrueNAS SCALE
+* feat: Achieved 709 GitHub followers milestone
+```
+
+---
+
+## 🔗 Connect & Collaborate
+
+```bash
+# Professional Networks
+github: https://github.com/023b
+linkedin: linkedin.com/in/arun-prakash-s
+email: arun@homelab.local
+
+# Open Source Contributions
+repositories: 6+ active projects
+contributions: Privacy-first AI, Local LLMs, Quantum ML
+collaboration: Open to research partnerships
+```
+
+---
+
+## 🚀 What's Next?
+
+Currently exploring:
+- Advanced BCI signal processing techniques
+- Federated learning with local LLMs
+- Quantum advantage in neural architecture search
+- Edge AI deployment strategies
+- Home lab automation with AI integration
+
+**Open to opportunities in:**
+- Artificial Intelligence Research & Development
+- Machine Learning Engineering
+- Quantum Computing Applications
+- Privacy-Focused AI Solutions
+- Distributed Systems Architecture
+
+---
+
+```bash
+$ echo "Thanks for visiting my profile! Let's build the future of AI together."
+Thanks for visiting my profile! Let's build the future of AI together.
+
+$ whoami
+Arun Prakash S - AI Developer, Privacy Advocate, Home Lab Enthusiast
+
+$ uptime
+System has been learning, building, and innovating for 24/7...
+```
+
+---
+
+*Last updated: September 2025*  
+*Built with ❤️ and lots of ☕
