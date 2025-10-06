@@ -11,16 +11,7 @@ Recent BCA (AI & DS) graduate who enjoys building and learning about technology 
 
 > *"Open to opportunities where I can learn, take initiative, and work with people who value continuous improvement."*
 
-## 📊 Quick Stats
 
-```bash
-$ cat ~/.stats
-├── GitHub Followers: 709+
-├── LinkedIn Connections: 500+
-├── AI Projects Completed: 15+
-├── Home Lab Uptime: 24/7
-└── Privacy Level: Maximum
-```
 
 ---
 
@@ -107,7 +98,7 @@ Real-time object classification with custom training capabilities directly throu
 ### 🏠 **Home Lab Infrastructure**
 *Ongoing*
 
-Enterprise-grade home network with self-hosted services and comprehensive monitoring.
+ home network with self-hosted services and comprehensive monitoring.
 
 **Architecture:**
 ```
@@ -152,8 +143,8 @@ quantum_skills = {
 ```
 
 ### **Programming Languages**
-- **Primary:** Python, JavaScript, R
-- **Web:** HTML/CSS, Node.js, Flask
+- **Primary:** Python, R
+- **Web:** HTML/CSS, 
 - **Data:** SQL, NoSQL
 - **Systems:** Bash, Linux Administration
 
@@ -200,35 +191,8 @@ infrastructure:
 
 ---
 
-## 🎨 Philosophy & Approach
-
-### **Privacy-First Development**
-In a world of data harvesting, I believe in digital sovereignty. All my AI projects prioritize:
-- Local deployment over cloud dependency
-- Data ownership over convenience
-- Self-hosted solutions over SaaS
-- Open source over proprietary
-
-### **Real-World Impact**
-Technology should solve actual problems, not create new ones. My projects focus on:
-- Practical applications with measurable outcomes
-- Accessibility and user empowerment
-- Sustainable and ethical AI development
-- Knowledge sharing and open collaboration
 
 ---
-
-## 📈 Recent Highlights
-
-```bash
-$ git log --oneline --since="3 months ago"
-* feat: Completed BCI framework with real-time processing
-* feat: Deployed Shendu with 100% local AI capabilities  
-* feat: Published quantum ML research with 92% accuracy
-* feat: Built distributed healthcare Q&A system
-* feat: Upgraded home lab infrastructure to TrueNAS SCALE
-* feat: Achieved 709 GitHub followers milestone
-```
 
 ---
 
@@ -237,8 +201,8 @@ $ git log --oneline --since="3 months ago"
 ```bash
 # Professional Networks
 github: https://github.com/023b
-linkedin: linkedin.com/in/arun-prakash-s
-email: arun@homelab.local
+linkedin: https://www.linkedin.com/in/arun-prakash-s-739881230/
+email: arunsabapathi2486@gmail.com
 
 # Open Source Contributions
 repositories: 6+ active projects
@@ -267,14 +231,11 @@ Currently exploring:
 ---
 
 ```bash
-$ echo "Thanks for visiting my profile! Let's build the future of AI together."
-Thanks for visiting my profile! Let's build the future of AI together.
 
 $ whoami
 Arun Prakash S - AI Developer, Privacy Advocate, Home Lab Enthusiast
 
-$ uptime
-System has been learning, building, and innovating for 24/7...
+
 ```
 
 ---
