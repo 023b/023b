@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&color=00FF9C&width=700&lines=AI+Systems+Developer;Local+LLMs+%7C+BCI+%7C+Distributed+AI+%7C+Signal+Processing" />
 
-<img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&h=350&q=90" width="100%" />
+<img src="https://i.pinimg.com/originals/2c/79/79/2c79797f8479ee631db33049d97b91b7.gif" />
 
 
 
