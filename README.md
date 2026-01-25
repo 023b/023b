@@ -1,10 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0:0b0f14,50:091a1f,100:020617&text=ARUN%20PRAKASH%20S&fontColor=00ff9c&fontSize=42&animation=fadeIn" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&color=00FF9C&width=700&lines=AI+Systems+Developer;Local+LLMs+%7C+BCI+%7C+Distributed+AI+%7C+Signal+Processing" />
 
-<p align="center">
-  <img src="https://media1.tenor.com/m/MLegl09WRvsAAAAd/vibes-retro.gif" width="1200" height="300" />
-</p>
+
 
 
 
