@@ -2,7 +2,8 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&color=00FF9C&width=700&lines=AI+Systems+Developer;Local+LLMs+%7C+BCI+%7C+Distributed+AI+%7C+Signal+Processing" />
 
-<img src="https://svgwave.in?height=80&width=1200&waveColor=00ff9c&waveCount=3&speed=2](https://media.tenor.com/GiO4XNKti44AAAAM/retrowave-synthwave.gif" />
+<img src="https://media.tenor.com/GiO4XNKti44AAAAM/retrowave-synthwave.gif" />
+
 
 Arun Prakash S  
 Independent AI Developer and Researcher  
