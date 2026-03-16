@@ -14,9 +14,6 @@ Independent builder — local AI, signal processing, self-hosted everything
 
 ## Builds
 
-**Distributed traffic optimization** (with Shreeram)  
-MADDPG + SUMO across 5 laptops, DRL for signal coordination
-
 **BCI framework**  
 EEG preprocessing (PhysioNet datasets), motor imagery classification  
 Explored passive BCI, affective computing pivots
@@ -30,15 +27,6 @@ Qiskit-based feature mapping, hybrid classical-quantum classifier
 
 **Healthcare QA system**  
 Distributed transformer inference, multi-node setup
-
----
-
-## Current
-
-- Expanding lancer: free LLM APIs (Google AI Studio, Groq, Cerebras)
-- Troubleshooting Claude Code auth walls
-- Building English teaching tools for Lisha (HTML presentations, quiz tracking)
-- Prepping interview resources for Shreeram (resume skills, project deep-dives)
 
 ---
 
