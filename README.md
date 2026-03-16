@@ -4,72 +4,55 @@
 
 
 
+Arun Prakash S
+023b · Tamil Nadu
 
+BCA (AI & Data Science) · Dr. M.G.R. Educational and Research Institute
+Independent builder — local AI, signal processing, self-hosted everything
 
+---
 
-Arun Prakash S  
-Independent AI Developer and Researcher  
+## Builds
 
-Building privacy-first intelligence, signal-driven models, and distributed inference systems.
+**Distributed traffic optimization** (with Shreeram)  
+MADDPG + SUMO across 5 laptops, DRL for signal coordination
 
-------------------------------------------------
+**BCI framework**  
+EEG preprocessing (PhysioNet datasets), motor imagery classification  
+Explored passive BCI, affective computing pivots
 
-Focus
+**Shendu.ai**  
+Local Mistral 7B via Ollama, personal knowledge base integration  
+Fully offline inference
 
-- Local language model infrastructure  
-- Brain computer interfaces  
-- Hybrid neural architectures  
-- Distributed AI systems  
-- Self-hosted networks  
+**Quantum ML experiments**  
+Qiskit-based feature mapping, hybrid classical-quantum classifier
 
-------------------------------------------------
+**Healthcare QA system**  
+Distributed transformer inference, multi-node setup
 
-Selected Systems
+---
 
-BCI Framework  
-Real-time EEG acquisition, preprocessing pipelines, ML inference, interactive dashboards
+## Current
 
-Shendu.ai  
-Local Mistral-based language model integrated with personal knowledge base  
-Fully offline inference and context memory
+- Expanding lancer: free LLM APIs (Google AI Studio, Groq, Cerebras)
+- Troubleshooting Claude Code auth walls
+- Building English teaching tools for Lisha (HTML presentations, quiz tracking)
+- Prepping interview resources for Shreeram (resume skills, project deep-dives)
 
-Quantum-Inspired Neural Classifier  
-Hybrid classical architecture with feature mapping using quantum principles
+---
 
-Distributed Healthcare QA  
-Multi-node transformer inference system with lightweight messaging layer
+## Stack
 
-Live Vision Classifier  
-Real-time webcam training and object recognition
+PyTorch · Transformers · OpenCV · scikit-learn  
+Flask · Docker · systemd · Caddy  
+Ollama · Qiskit · Telegram Bot API  
+Linux (Mint/Ubuntu) · ZFS · fstab archaeology  
+Python · Bash · SQL
 
-------------------------------------------------
+---
 
-Stack
-
-AI        PyTorch, Transformers, Computer Vision, Signal Processing  
-Systems   Linux, ZFS, Containers, Distributed Nodes, VLANs  
-Quantum   Qiskit  
-Lang      Python, Bash, SQL  
-
-------------------------------------------------
-
-Home Lab Topology
-
-ISP -> Core Router -> Distribution Switch  
-                   -> PoE Camera Network  
-                   -> NAS (ZFS)  
-                   -> AI Compute Nodes  
-
-------------------------------------------------
-
-Current Direction
-
-Efficient local inference  
-Signal + neural hybrid systems  
-Edge AI deployment  
-Privacy-first architectures  
-
-------------------------------------------------
+## Reach
 
 github.com/023b  
 linkedin.com/in/arun-prakash-s-739881230
