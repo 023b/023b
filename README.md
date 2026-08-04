@@ -16,24 +16,30 @@
 
 ### now
 
-Trichy → Guildford. Starting **MSc Computer Vision, Robotics and Machine Learning** at the University of Surrey this September, on the Surrey Luminary Award. Before that: three internships in a row, building production computer vision and ML systems for actual manufacturing lines and credit pipelines, not just notebooks.
+Trichy → Guildford. Starting **MSc Computer Vision, Robotics and Machine Learning** at the University of Surrey this September, on the Surrey Luminary Award. Behind me: five internships across four years, from early Python/ML groundwork to production computer vision on the factory floor.
 
 ```
-BCA (AI & Data Science) → QbytX → DataMites → Rubixe → Surrey MSc
+BCA (AI & Data Science) → Pantech → IBM → DataMites → Rubixe → QbytX → Surrey MSc
 ```
 
 ---
 
 ### shipped
 
-**Visual QC on Jetson Orin Nano** — `QbytX`
+**Visual QC on Jetson Orin Nano** — `QbytX, May–Jun 2026`
 YOLOv8 defect detection + FastFlow anomaly detection for Mitsuba wiper motor production. TensorRT FP16 for inference speed on edge hardware. This wasn't a demo, it ran on the floor.
 
-**Credit scoring pipeline** — `DataMites`
+**Credit scoring pipeline** — `DataMites, Aug 2025–Mar 2026`
 LightGBM model for a bank credit product, Gini 32.85. Also shipped four capstones (dog breed classification, Indian Sign Language recognition, pneumonia detection from X-rays, traffic sign detection) plus a client-facing RAG chatbot on LangChain + OpenRouter + ChromaDB.
 
-**Data science & AI consulting** — `Rubixe`
-Eight months, Bangalore. Ended July 2026.
+**Data science & AI consulting** — `Rubixe, Nov 2025–Jul 2026`
+Eight months, Bangalore.
+
+**Cognitive computing & technical writing** — `IBM (via Prolearn), Nov–Dec 2024`
+Explored IBM Watson tooling, produced technical documentation translating cognitive computing concepts for a general audience.
+
+**AI development, early days** — `Pantech Solutions, Jan–Apr 2023`
+First real exposure to production ML: training pipelines, model deployment, Python integration work.
 
 **Homelab, always running**
 A ThinkCentre M73 Tiny runs my own infra: self-hosted LLM chat (LibreChat, with custom OpenRouter cost tracking), Jellyfin, Immich, Home Assistant, and a WhatsApp AI assistant I built from scratch. Everything behind Tailscale. If it can be self-hosted, it probably already is.
