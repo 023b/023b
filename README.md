@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://023b.pages.dev"><img src="https://img.shields.io/badge/definitely_a_portfolio-CCFF00?style=for-the-badge&logoColor=black" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/arun-prakash-s-739881230"><img src="https://img.shields.io/badge/LinkedIn-FF00AA?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="https://github.com/023b/sophon"><img src="https://img.shields.io/badge/latest_crime-Sophon-00FFEE?style=for-the-badge&labelColor=111111" alt="Sophon"></a>
+  <a href="https://github.com/023b/sophon"><img src="https://img.shields.io/badge/building-Sophon-00FFEE?style=for-the-badge&labelColor=111111" alt="Sophon"></a>
 </p>
 
 ## Current quest
