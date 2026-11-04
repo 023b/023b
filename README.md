@@ -18,7 +18,7 @@ MSc Computer Vision, Robotics & ML at the University of Surrey, on a Luminary Aw
 
 ## Hall of fame (and of things that should not have worked)
 
-| | |
+| Exhibit | Evidence |
 |---|---|
 | **[Sophon](https://github.com/023b/sophon)** | A team of AI agents you can watch argue, each in its own terminal. Its phantom mode runs a 120B model on a CPU-only mini PC. Dead slow. Still counts. |
 | **Factory vision QC** | 3 cameras, 6 TensorRT engines and a Jetson Orin Nano inspecting wiper motors at 17 to 20 ms per crop. A production line does not accept "works on my machine". |
